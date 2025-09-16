@@ -1,1 +1,3 @@
 # Mapping-of-OSM-and-FS-categories
+
+readme is comming...
