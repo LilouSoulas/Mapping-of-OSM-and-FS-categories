@@ -1,0 +1,1339 @@
+Key_category,Key_subcategory,Key,Value,Description,Element
+aerialway,aerialway,aerialway,cable_car,"A cable car run. Just one or two large cars. The traction cable forms a loop, but the cars do not loop around, they just move up and down on their own side, rolling along static cables over which they are suspended.",way
+aerialway,aerialway,aerialway,gondola,An aerialway where the cabins go around in a circle.,way
+aerialway,aerialway,aerialway,mixed_lift,"A mixed lift, containing both gondolas and chairs.",way
+aerialway,aerialway,aerialway,chair_lift,An open chairlift run. These have one or more seats or benches and are open to the outside air.,way
+aerialway,aerialway,aerialway,drag_lift,An overhead tow-line for skiers and riders.,way
+aerialway,aerialway,aerialway,t-bar,An overhead tow-line for skiers and riders with T-shaped carriers for two passengers.,way
+aerialway,aerialway,aerialway,j-bar,J-bar lift or L-bar lift. Overhead tow-line for skiers and riders with carriers in J-shape.,way
+aerialway,aerialway,aerialway,platter,An overhead tow-line for skiers and riders with platters.,way
+aerialway,aerialway,aerialway,rope_tow,A tow-line for skiers and riders where passenger hold by hand or use special tow grabbers.,way
+aerialway,aerialway,aerialway,magic_carpet,A ski lift for small children resembling a conveyor belt.,way
+aerialway,aerialway,aerialway,zip_line,"Zip line, gravity propelled aerial ropeslide like a flying fox or similar",way
+aerialway,aerialway,aerialway,goods,"A cable supported lift for conveying goods, not passengers.",way
+aerialway,aerialway,aerialway,pylon,A pylon supporting the aerialway cable.,node
+aerialway,aerialway,aerialway,station,A station where passengers and/or goods can enter and/or leave the aerialway,node / area
+aeroway,aeroway,aeroway,aerodrome,"An aerodrome, airport or airfield",node / area
+aeroway,aeroway,aeroway,aircraft_crossing,A point where the flow of traffic is impacted by crossing aircraft.,node
+aeroway,aeroway,aeroway,apron,"An area of an airport where planes are parked, unloaded or loaded, refueled, or boarded.",area
+aeroway,aeroway,aeroway,gate,"The bounded space, inside the airport terminal, where passengers wait before boarding their flight",node
+aeroway,aeroway,aeroway,hangar,A large airport building with extensive floor area for housing aircraft or spacecraft.,area
+aeroway,aeroway,aeroway,helipad,A landing area or platform designed for helicopters,node / area
+aeroway,aeroway,aeroway,heliport,A special aerodrome built for helicopters.,node / area
+aeroway,aeroway,aeroway,navigationaid,A facility that supports visual navigation for aircraft,node
+aeroway,aeroway,aeroway,runway,A strip of land on which aircraft can take off and land.,way
+aeroway,aeroway,aeroway,spaceport,A spaceport or cosmodrome: a site for launching or receiving spacecraft,node / area
+aeroway,aeroway,aeroway,taxiway,A route where airplanes manouevre between runways and parking areas within an aerodrome,way
+aeroway,aeroway,aeroway,terminal,An airport passenger building,node / area
+aeroway,aeroway,aeroway,windsock,An object that shows wind direction and speed.,node
+amenity,sustenance,amenity,bar,"Bar is a purpose-built commercial establishment that sells alcoholic drinks to be consumed on the premises. They are characterised by a noisy and vibrant atmosphere, similar to a party and usually don't sell food. See also the description of the tags amenity=pub;bar;restaurant for a distinction between these.",node / area
+amenity,sustenance,amenity,biergarten,"Biergarten or beer garden is an open-air area where alcoholic beverages along with food is prepared and served. See also the description of the tags amenity=pub;bar;restaurant. A biergarten can commonly be found attached to a beer hall, pub, bar, or restaurant. In this case, you can use biergarten=yes additional to amenity=pub;bar;restaurant.",node / area
+amenity,sustenance,amenity,cafe,"Cafe is generally an informal place that offers casual meals and beverages; typically, the focus is on coffee or tea. Also known as a coffeehouse/shop, bistro or sidewalk cafe. The kind of food served may be mapped with the tags cuisine=* and diet:*=*. See also the tags amenity=restaurant;bar;fast_food.",node / area
+amenity,sustenance,amenity,fast_food,Fast food restaurant (see also amenity=restaurant). The kind of food served can be tagged with cuisine=* and diet:*=*.,node / area
+amenity,sustenance,amenity,food_court,"An area with several different restaurant food counters and a shared eating area. Commonly found in malls, airports, etc.",node / area
+amenity,sustenance,amenity,ice_cream,Ice cream shop or ice cream parlour. A place that sells ice cream and frozen yoghurt over the counter,node / area
+amenity,sustenance,amenity,pub,A place selling beer and other alcoholic drinks; may also provide food or accommodation (UK). See description of amenity=bar and amenity=pub for distinction between bar and pub,node / area
+amenity,sustenance,amenity,restaurant,"Restaurant (not fast food, see amenity=fast_food). The kind of food served can be tagged with cuisine=* and diet:*=*.",node / area
+amenity,education,amenity,college,Campus or buildings of an institute of Further Education (aka continuing education),node / area
+amenity,education,amenity,dancing_school,A dancing school or dance studio,node / area
+amenity,education,amenity,driving_school,Driving School which offers motor vehicle driving lessons,node / area
+amenity,education,amenity,first_aid_school,A place where people can go for first aid courses.,node / area
+amenity,education,amenity,kindergarten,"For children too young for a regular school (also known as preschool, playschool or nursery school), in some countries including afternoon supervision of primary school children.",node / area
+amenity,education,amenity,language_school,Language School: an educational institution where one studies a foreign language.,node / area
+amenity,education,amenity,library,"A public library (municipal, university, …) to borrow books from.",node / area
+amenity,education,amenity,surf_school,A surf school is an establishment that teaches surfing.,node / area
+amenity,education,amenity,toy_library,"A place to borrow games and toys, or play with them on site.",node / area
+amenity,education,amenity,research_institute,An establishment endowed for doing research.,node / area
+amenity,education,amenity,training,Public place where you can get training.,node / area
+amenity,education,amenity,music_school,"A music school, an educational institution specialized in the study, training, and research of music.",node / area
+amenity,education,amenity,school,"School and grounds - primary, middle and secondary schools",node / area
+amenity,education,amenity,traffic_park,Juvenile traffic schools,node / area
+amenity,education,amenity,university,A university campus: an institute of higher education,node / area
+amenity,transportation,amenity,bicycle_parking,Parking for bicycles,node / area
+amenity,transportation,amenity,bicycle_repair_station,"General tools for self-service bicycle repairs, usually on the roadside; no service",node / area
+amenity,transportation,amenity,bicycle_rental,Rent a bicycle,node / area
+amenity,transportation,amenity,bicycle_wash,Clean a bicycle,node / area
+amenity,transportation,amenity,boat_rental,Rent a Boat,node / area
+amenity,transportation,amenity,boat_sharing,Share a Boat,node / area
+amenity,transportation,amenity,bus_station,May also be tagged as public_transport=station.,node / area
+amenity,transportation,amenity,car_rental,Rent a car,node / area
+amenity,transportation,amenity,car_sharing,Share a car,node / area
+amenity,transportation,amenity,car_wash,Wash a car,node / area
+amenity,transportation,amenity,compressed_air,"A device to inflate tires/tyres (e.g. motorcar, bicycle)",node / area
+amenity,transportation,amenity,vehicle_inspection,Government vehicle inspection,node / area
+amenity,transportation,amenity,charging_station,Charging facility for electric vehicles,node
+amenity,transportation,amenity,driver_training,A place for driving training on a closed course,node / area
+amenity,transportation,amenity,ferry_terminal,Ferry terminal/stop. A place where people/cars/etc. can board and leave a ferry.,node / area
+amenity,transportation,amenity,fuel,Petrol station; gas station; marine fuel; … Streets to petrol stations are often tagged highway=service.,node / area
+amenity,transportation,amenity,grit_bin,A container that holds grit or a mixture of salt and grit.,node
+amenity,transportation,amenity,motorcycle_parking,Parking for motorcycles,node / area
+amenity,transportation,amenity,parking,Parking area for vehicles. Streets on car parking are often tagged highway=service and service=parking_aisle.,node / area
+amenity,transportation,amenity,parking_entrance,An entrance or exit to an underground or multi-storey parking facility. Group multiple parking entrances together with a relation using the tags type=site and site=parking,node
+amenity,transportation,amenity,parking_space,A single parking space within a car park. Parking spaces should be mapped within an amenity=parking area. Group multiple parking spaces together with a relation using the tags type=site and site=parking,node / area
+amenity,transportation,amenity,taxi,A place where taxis wait for passengers.,node / area
+amenity,transportation,amenity,weighbridge,A large weight scale to weigh vehicles and goods,node / area
+amenity,financial,amenity,atm,Automated teller machine (ATM) or cashpoint: a device that provides the clients of a financial institution with access to financial transactions.,node
+amenity,financial,amenity,payment_terminal,Self-service payment kiosk/terminal,node
+amenity,financial,amenity,bank,"Bank or credit union: a financial establishment where customers can deposit and withdraw money, take loans, make investments and transfer funds.",node / area
+amenity,financial,amenity,bureau_de_change,"Bureau de change, money changer, currency exchange, Wechsel, cambio – a place to change foreign bank notes and travellers cheques.",node / area
+amenity,financial,amenity,money_transfer,"A place that offers money transfers, especially cash to cash",node / area
+amenity,financial,amenity,payment_centre,"A non-bank place, where people can pay bills of public and private services and taxes.",node / area
+amenity,healthcare,amenity,baby_hatch,"A place where a baby can be, out of necessity, anonymously left to be safely cared for and perhaps adopted.",node / area
+amenity,healthcare,amenity,clinic,A medium-sized medical facility or health centre.,node / area
+amenity,healthcare,amenity,dentist,A dentist practice / surgery.,node / area
+amenity,healthcare,amenity,doctors,A doctor's practice / surgery.,node / area
+amenity,healthcare,amenity,hospital,A hospital providing in-patient medical treatment. Often used in conjunction with emergency=* to note whether the medical centre has emergency facilities (A&E (brit.) or ER (am.)),node / area
+amenity,healthcare,amenity,nursing_home,Discouraged tag for a home for disabled or elderly persons who need permanent care. Use amenity=social_facility + social_facility=nursing_home now.,node / area
+amenity,healthcare,amenity,pharmacy,"Pharmacy: a shop where a pharmacist sells medications
+dispensing=yes/no - availability of prescription-only medications",node / area
+amenity,healthcare,amenity,social_facility,"A facility that provides social services: group & nursing homes, workshops for the disabled, homeless shelters, etc.",node / area
+amenity,healthcare,amenity,veterinary,"A place where a veterinary surgeon, also known as a veterinarian or vet, practices.",node / area
+amenity,"entertainment, arts & culture",amenity,arts_centre,A venue where a variety of arts are performed or conducted,node / area
+amenity,"entertainment, arts & culture",amenity,brothel,An establishment specifically dedicated to prostitution,node / area
+amenity,"entertainment, arts & culture",amenity,casino,"A gambling venue with at least one table game(e.g. roulette, blackjack) that takes bets on sporting and other events at agreed upon odds.",node / area
+amenity,"entertainment, arts & culture",amenity,cinema,A place where films are shown (US: movie theater),node / area
+amenity,"entertainment, arts & culture",amenity,community_centre,"A place mostly used for local events, festivities and group activities; including special interest and special age groups. .",node / area
+amenity,"entertainment, arts & culture",amenity,conference_centre,A large building that is used to hold a convention,node / area
+amenity,"entertainment, arts & culture",amenity,events_venue,A building specifically used for organising events,node / area
+amenity,"entertainment, arts & culture",amenity,exhibition_centre,An exhibition centre,node / area
+amenity,"entertainment, arts & culture",amenity,fountain,A fountain for cultural / decorational / recreational purposes.,node / area
+amenity,"entertainment, arts & culture",amenity,gambling,"A place for gambling, not being a shop=bookmaker, shop=lottery, amenity=casino, or leisure=adult_gaming_centre.
+Games that are covered by this definition include bingo and pachinko.",node / area
+amenity,"entertainment, arts & culture",amenity,love_hotel,A love hotel is a type of short-stay hotel operated primarily for the purpose of allowing guests privacy for sexual activities.,node / area
+amenity,"entertainment, arts & culture",amenity,music_venue,An indoor place to hear contemporary live music.,node / area
+amenity,"entertainment, arts & culture",amenity,nightclub,"A place to drink and dance (nightclub). The German word is ""Disco"" or ""Discothek"". Please don't confuse this with the German ""Nachtclub"" which is most likely amenity=stripclub.",node / area
+amenity,"entertainment, arts & culture",amenity,planetarium,A planetarium.,node / area
+amenity,"entertainment, arts & culture",amenity,public_bookcase,A street furniture containing books. Take one or leave one.,node / area
+amenity,"entertainment, arts & culture",amenity,social_centre,A place for free and not-for-profit activities.,node / area
+amenity,"entertainment, arts & culture",amenity,stage,A raised platform for performers.,node / area
+amenity,"entertainment, arts & culture",amenity,stripclub,A place that offers striptease or lapdancing (for sexual services use amenity=brothel).,node
+amenity,"entertainment, arts & culture",amenity,studio,TV radio or recording studio,node / area
+amenity,"entertainment, arts & culture",amenity,swingerclub,A club where people meet to have a party and group sex.,node / area
+amenity,"entertainment, arts & culture",amenity,theatre,"A theatre or opera house where live performances occur, such as plays, musicals and formal concerts. Use amenity=cinema for movie theaters.",node / area
+amenity,public service,amenity,courthouse,"A building home to a court of law, where justice is dispensed",node / area
+amenity,public service,amenity,fire_station,A station of a fire brigade,node / area
+amenity,public service,amenity,police,A police station where police officers patrol from and that is a first point of contact for civilians,node / area
+amenity,public service,amenity,post_box,A box for the reception of mail. Alternative mail-carriers can be tagged via operator=*,node
+amenity,public service,amenity,post_depot,"Post depot or delivery office, where letters and parcels are collected and sorted prior to delivery.",node / area
+amenity,public service,amenity,post_office,Post office building with postal services,node / area
+amenity,public service,amenity,prison,A prison or jail where people are incarcerated before trial or after conviction,node / area
+amenity,public service,amenity,ranger_station,"National Park visitor headquarters: official park visitor facility with police, visitor information, permit services, etc",node / area
+amenity,public service,amenity,townhall,"Building where the administration of a village, town or city may be located, or just a community meeting place",node / area
+amenity,facilities,amenity,bbq,"BBQ or Barbecue is a permanently built grill for cooking food, which is most typically used outdoors by the public. For example these may be found in city parks or at beaches. Use the tag fuel=* to specify the source of heating, such as fuel=wood;electric;charcoal. For mapping nearby table and chairs, see also the tag tourism=picnic_site. For mapping campfires and firepits, instead use the tag leisure=firepit.",node
+amenity,facilities,amenity,bench,A bench to sit down and relax a bit,node
+amenity,facilities,amenity,dog_toilet,Area designated for dogs to urinate and excrete.,node / area
+amenity,facilities,amenity,dressing_room,Area designated for changing clothes.,node / area
+amenity,facilities,amenity,drinking_water,"Drinking water is a place where humans can obtain potable water for consumption. Typically, the water is used for only drinking. Also known as a drinking fountain or bubbler.",node
+amenity,facilities,amenity,give_box,A small facility where people drop off and pick up various types of items in the sense of free sharing and reuse.,node / area
+amenity,facilities,amenity,lounge,"A comfortable waiting area for customers, usually found in airports and other transportation hubs. Typically has extra amenities or sustenance.",node / area
+amenity,facilities,amenity,mailroom,A mailroom for receiving packages or letters.,node / area
+amenity,facilities,amenity,parcel_locker,Machine for picking up and sending parcels,node / area
+amenity,facilities,amenity,shelter,A small shelter against bad weather conditions. To additionally describe the kind of shelter use shelter_type=*.,node / area
+amenity,facilities,amenity,shower,Public shower.,node / area
+amenity,facilities,amenity,telephone,Public telephone,node
+amenity,facilities,amenity,toilets,Public toilets (might require a fee),node / area
+amenity,facilities,amenity,water_point,Place where you can get large amounts of drinking water,node
+amenity,facilities,amenity,watering_place,Place where water is contained and animals can drink,node
+amenity,waste management,amenity,sanitary_dump_station,A place for depositing human waste from a toilet holding tank.,node / area
+amenity,waste management,amenity,recycling,"Recycling facilities (bottle banks, etc.). Combine with recycling_type=container for containers or recycling_type=centre for recycling centres.",node / area
+amenity,waste management,amenity,waste_basket,A single small container for depositing garbage that is easily accessible for pedestrians.,node
+amenity,waste management,amenity,waste_disposal,"A medium or large disposal bin, typically for bagged up household or industrial waste.",node
+amenity,waste management,amenity,waste_transfer_station,"A waste transfer station is a location that accepts, consolidates and transfers waste in bulk.",node / area
+amenity,others,amenity,animal_boarding,"A facility where you, paying a fee, can bring your animal for a limited period of time (e.g. for holidays)",node / area
+amenity,others,amenity,animal_breeding,"A facility where animals are bred, usually to sell them",node / area / relation
+amenity,others,amenity,animal_shelter,A shelter that recovers animals in trouble,node / area
+amenity,others,amenity,animal_training,A facility used for non-competitive animal training,node / area
+amenity,others,amenity,baking_oven,"An oven used for baking bread and similar, for example inside a building=bakehouse.",node
+amenity,others,amenity,clock,A public visible clock,node
+amenity,others,amenity,crematorium,A place where dead human bodies are burnt,node / area
+amenity,others,amenity,dive_centre,A dive center is the base location where sports divers usually start scuba diving or make dive guided trips at new locations.,node / area
+amenity,others,amenity,funeral_hall,"A place for holding a funeral ceremony, other than a place of worship.",node / area
+amenity,others,amenity,grave_yard,"A (smaller) place of burial, often you'll find a church nearby. Large places should be landuse=cemetery instead.",node / area
+amenity,others,amenity,hunting_stand,A hunting stand: an open or enclosed platform used by hunters to place themselves at an elevated height above the terrain,node / area
+amenity,others,amenity,internet_cafe,A place whose principal role is providing internet services to the public.,node / area
+amenity,others,amenity,kitchen,A public kitchen in a facility to use by everyone or customers,node / area
+amenity,others,amenity,kneipp_water_cure,Outdoor foot bath facility. Usually this is a pool with cold water and handrail. Popular in German speaking countries.,node / area
+amenity,others,amenity,lounger,An object for people to lie down.,node
+amenity,others,amenity,marketplace,A marketplace where goods and services are traded daily or weekly.,node / area
+amenity,others,amenity,monastery,Monastery is the location of a monastery or a building in which monks and nuns live.,node / area
+amenity,others,amenity,mortuary,"A morgue or funeral home, used for the storage of human corpses.",node / area
+amenity,others,amenity,photo_booth,A stand to create instant photos.,node
+amenity,others,amenity,place_of_mourning,"A room or building where families and friends can come, before the funeral, and view the body of the person who has died.",node / area
+amenity,others,amenity,place_of_worship,"A church, mosque, or temple, etc. Note that you also need religion=*, usually denomination=* and preferably name=* as well as amenity=place_of_worship. See the article for details.",node / area
+amenity,others,amenity,public_bath,"A location where the public may bathe in common, etc. japanese onsen, turkish bath, hot spring",node / area
+amenity,others,amenity,public_building,A generic public building. Don't use! See office=government.,node / area
+amenity,others,amenity,refugee_site,A human settlement sheltering refugees or internally displaced persons,node / area
+amenity,others,amenity,vending_machine,"A machine selling goods – food, tickets, newspapers, etc. Add type of goods using vending=*",node
+amenity,others,amenity,user defined,All commonly used values according to Taginfo,node / area
+linear barriers,linear barriers,barrier,cable_barrier,A road side or median barrier made of steel wire ropes mounted on weak posts.,way
+linear barriers,linear barriers,barrier,city_wall,A fortification used to defend settlements in ancient to modern times.,way
+linear barriers,linear barriers,barrier,ditch,A ditch or a trench is a long and narrow man-made barrier dug in the ground to prevent access to the other side.,way
+linear barriers,linear barriers,barrier,fence,"A freestanding structure designed to restrict or prevent movement across a boundary, generally distinguished from a wall by the lightness of its construction.",node / way
+linear barriers,linear barriers,barrier,guard_rail,"A rail, typically metal, designed to keep vehicles within their roadway, and prevent collisions or runaways. Right side is the smooth side facing the roadway. When drawing the line in iD, the arrow side points towards the road.",way
+linear barriers,linear barriers,barrier,handrail,A rail designed to be grasped by the hand so as to provide stability or support.,way
+linear barriers,linear barriers,barrier,hedge,"A line of closely spaced shrubs and tree species, which form a barrier or mark the boundary of an area.",way / area
+linear barriers,linear barriers,barrier,kerb,A stone edging to a pavement or raised path.,node / way
+linear barriers,linear barriers,barrier,retaining_wall,"A structure that holds back soil or rock from a building, structure or area.",way
+linear barriers,linear barriers,barrier,wall,"A freestanding structure, designed to restrict or prevent movement across a boundary, typically made from solid brick, concrete or rocks, and almost always built so that it is opaque to vision.",way / area
+access control on highways,access control on highways,barrier,block,One or more large immobile block(s) usually barring free access along a way.,node / way
+access control on highways,access control on highways,barrier,bollard,One or more solid (usually concrete or metal) pillar(s) used to control traffic.,node / way
+access control on highways,access control on highways,barrier,border_control,A control point at an international border between two countries.,node / way / area
+access control on highways,access control on highways,barrier,bump_gate,A drive-through gate used in rural areas to provide a barrier to livestock that does not require the driver to exit the vehicle.,node
+access control on highways,access control on highways,barrier,bus_trap,A short section of the roadway where there is a deep dip in the middle to prevent passage by some traffic.,node
+access control on highways,access control on highways,barrier,cattle_grid,A hole in the road surface covered in a series of bars that allow wheeled vehicles but not animals to cross.,node
+access control on highways,access control on highways,barrier,chain,A chain used to prevent motorised vehicles.,node / way
+access control on highways,access control on highways,barrier,cycle_barrier,A barrier along a path that slows or prevents access for bicycle users.,node
+access control on highways,access control on highways,barrier,debris,Debris blocking a road,node
+access control on highways,access control on highways,barrier,entrance,An opening or gap in a barrier.,node
+access control on highways,access control on highways,barrier,full-height_turnstile,A full-height turnstile.,node / way
+access control on highways,access control on highways,barrier,gate,A section in a wall or fence which can be opened to allow access.,node / way
+access control on highways,access control on highways,barrier,hampshire_gate,A section of wire fence which can be removed temporarily.,node
+access control on highways,access control on highways,barrier,height_restrictor,A height restrictor which prevents access of vehicles higher than a set limit.,node
+access control on highways,access control on highways,barrier,horse_stile,A horse stile allows pedestrians and horses to cross a gap through a fence,node
+access control on highways,access control on highways,barrier,jersey_barrier,A barrier made of heavy prefabricated blocks.,node / way
+access control on highways,access control on highways,barrier,kissing_gate,A type of gate where you have to go into an enclosure and open a gate to get through.,node
+access control on highways,access control on highways,barrier,lift_gate,A bar or pole pivoted (rotates upwards to open) in such a way as to allow the boom to block vehicular access through a controlled point.,node
+access control on highways,access control on highways,barrier,log,A log blocking access.,node / way
+access control on highways,access control on highways,barrier,motorcycle_barrier,A barrier along a path preventing access by motorcycles.,node
+access control on highways,access control on highways,barrier,rope,A flexible barrier made of rope.,node / way
+access control on highways,access control on highways,barrier,sally_port,"A secure, controlled entryway to a fortification or prison.",node
+access control on highways,access control on highways,barrier,spikes,Spikes on the ground preventing unauthorized access.,node
+access control on highways,access control on highways,barrier,stile,"A structure which provides people a passage through or over a boundary via steps, ladders or narrow gaps.",node
+access control on highways,access control on highways,barrier,sump_buster,A barrier to stop cars (two tracked vehicles with less than a certain ground clearance and width between tracks).,node
+access control on highways,access control on highways,barrier,swing_gate,A gate consisting of a bar or pole pivoted (rotates sidewards to open) in such a way as to allow the boom to block vehicular access through a controlled point.,node
+access control on highways,access control on highways,barrier,toll_booth,A place where a road usage toll or fee is collected.,node / area
+access control on highways,access control on highways,barrier,turnstile,"A turnstile, a passage on foot designed to allow one person at a time to pass",node
+access control on highways,access control on highways,barrier,yes,"Unspecified barrier. If possible, use a more specific value.",node / way / area
+boundary,boundary types,boundary,aboriginal_lands,A boundary representing official reservation boundaries of recognized aboriginal / indigenous / native peoples.,area / relation
+boundary,boundary types,boundary,administrative,"An administrative boundary. Subdivisions of areas/territories/jurisdictions recognised by governments or other organisations for administrative purposes. These range from large groups of nation states right down to small administrative districts and suburbs, as indicated by the admin_level=* combo tag.",area
+boundary,boundary types,boundary,border_zone,A border zone is an area near the border where special restrictions on movement apply. Usually a permit is required for visiting.,area / relation
+boundary,boundary types,boundary,census,"A census-designated boundary delineating a statistical area, not necessarily observable on the ground.",area / relation
+boundary,boundary types,boundary,forest,"A delimited forest is a land which is predominantly wooded and which is, for this reason, given defined boundaries. It may cover different tree stands, non-wooded areas, highways… but all the area within the boundaries are considered and managed as a single forest.",area / relation
+boundary,boundary types,boundary,forest_compartment,"A forest compartment is a numbered sub-division within a delimited forest, physically materialized with visible, typically cleared, boundaries.",area / relation
+boundary,boundary types,boundary,hazard,"A designated hazardous area, with a potential source of damage to health, life, property, or any other interest of value.",area
+boundary,boundary types,boundary,health,Health division boundaries. Some mappers use health_level=* instead of admin_level=* to specify level in the health system hierarchy.,area / relation
+boundary,boundary types,boundary,historic,A historic administrative boundary (use judiciously).,area / relation
+boundary,boundary types,boundary,limited_traffic_zone,Describes an officially designated area that requires authorization for the entry of certain vehicles.,area / relation
+boundary,boundary types,boundary,local_authority,Describes the territory of a local authority.,relation
+boundary,boundary types,boundary,low_emission_zone,A geographically defined area which seeks to restrict or deter access by certain polluting vehicles with the aim of improving the air quality.,area / relation
+boundary,boundary types,boundary,maritime,"Maritime boundaries which are not administrative boundaries: the Baseline, Contiguous Zone and EEZ (Exclusive Economic Zone).",area
+boundary,boundary types,boundary,marker,"A boundary marker, border marker, boundary stone, or border stone is a robust physical marker that identifies the start of a land boundary or the change in a boundary, especially a change in direction of a boundary. See also historic=boundary_stone",node
+boundary,boundary types,boundary,national_park,"Area of outstanding natural beauty, set aside for conservation and for recreation (Other languages).",area
+boundary,boundary types,boundary,place,"boundary=place is commonly used to map the boundaries of a place=*, when these boundaries can be defined but these are not administrative boundaries.",way / relation
+boundary,boundary types,boundary,political,Electoral boundaries,area
+boundary,boundary types,boundary,postal_code,Postal code boundaries. Some mappers use postal_code_level=* instead of admin_level=* to specify level in the postal hierarchy.,relation
+boundary,boundary types,boundary,protected_area,"Protected areas, such as for national parks, marine protection areas, heritage sites, wilderness, cultural assets and similar.",area
+boundary,boundary types,boundary,religious_administration,"A religious administration boundary, eg. of a catholic diocese or parish. Use religion=* and denomination=* to specify the church to which the boundary applies. Some mappers use religious_level=* instead of admin_level=* to specify level in the church hierarchy.",relation
+boundary,boundary types,boundary,special_economic_zone,A government-defined area in which business and trade laws are different.,area
+boundary,boundary types,boundary,statistical,An official boundary recognised by government for statistical purposes.,area / relation
+boundary,boundary types,boundary,disputed,An area of landed claimed by two or more parties (use with caution). See also Disputed territories.,area / relation
+boundary,boundary types,boundary,timezone,Boundaries of time zone,relation
+boundary,boundary types,boundary,user defined,All commonly used values according to Taginfo,node / way
+boundary,attributes,admin_level,(number),"Defines level of the division described by the boundary in the hierarchy system to which the division belongs. Usually in the range 1 to 10 (except for several countries, where it is in the range 1 to 11 – Bolivia, Germany, Mozambique, Netherlands, Philippines, Poland, Turkmenistan, Venezuela – see boundary).",area
+boundary,attributes,health_level,(number),Used by some mappers instead of admin_level=* in conjunction with boundary=health and is usually in the range 1 to 10.,area / relation
+boundary,attributes,postal_code_level,(number),Used by some mappers instead of admin_level=* in conjunction with boundary=postal_code and is usually in the range 1 to 10.,relation
+boundary,attributes,religious_level,(number),Used by some mappers instead of admin_level=* in conjunction with boundary=religious_administration and is usually in the range 1 to 10.,relation
+boundary,attributes,border_type,*,To distinguish between types of boundary where admin_level isn't enough. Used in several different ways e.g in maritime contexts.,way / area
+boundary,attributes,start_date,(date),Useful if the boundary is very recent (or if it will become effective in a near future).,area
+building,accommodation,building,apartments,"A building arranged into individual dwellings, often on separate floors. May also have retail outlets on the ground floor.",None
+building,accommodation,building,barracks,Buildings built to house military personnel or laborers.,None
+building,accommodation,building,bungalow,"A single-storey detached small house, Dacha.",None
+building,accommodation,building,cabin,"A cabin is a small, roughly built house usually with a wood exterior and typically found in rural areas.",None
+building,accommodation,building,detached,"A detached house, a free-standing residential building usually housing a single family.",None
+building,accommodation,building,annexe,"An annexe is a small self contained apartments, collages, or small residential building on the same property as the main residential unit.",None
+building,accommodation,building,dormitory,"A shared building intended for college/university students (not a share room for multiple occupants as implied by the term in British English). Alternatively, use building=residential plus residential=university and loose the information that it is for students.",None
+building,accommodation,building,farm,"A residential building on a farm (farmhouse). For other buildings see below building=farm_auxiliary, building=barn, … If in your country farmhouse looks same as general residential house then you can tag as building=house as well. See also landuse=farmyard for the surrounding area",None
+building,accommodation,building,ger,A permanent or seasonal round yurt or ger.,None
+building,accommodation,building,hotel,A building designed with separate rooms available for overnight accommodation. Normally used in conjunction with tourism=hotel for the hotel grounds including recreation areas and parking.,None
+building,accommodation,building,house,"A dwelling unit inhabited by a single household (a family or small group sharing facilities such as a kitchen). Houses forming half of a semi-detached pair, or one of a row of terraced houses, should share at least two nodes with joined neighbours, thereby defining the party wall between the properties.",None
+building,accommodation,building,houseboat,A boat used primarily as a home,None
+building,accommodation,building,residential,"A general tag for a building used primarily for residential purposes. Where additional detail is available consider using 'apartments', 'terrace', 'house', 'detached' or 'semidetached_house'.",None
+building,accommodation,building,semidetached_house,"A residential house that shares a common wall with another on one side. Typically called a ""duplex"" in American English.",None
+building,accommodation,building,static_caravan,A mobile home (semi)permanently left on a single site,None
+building,accommodation,building,stilt_house,A building raised on piles over the surface of the soil or a body of water,None
+building,accommodation,building,terrace,"A single way used to define the outline of a linear row of residential dwellings, each of which normally has its own entrance, which form a terrace (""row-house"" or ""townhouse"" in North American English). Consider defining each dwelling separately using 'house'.",None
+building,accommodation,building,tree_house,"An accommodation, often designed as a small hut, sometimes also as a room or small apartment. Built on tree posts or on a natural tree. A tree house has no contact with the ground. Access via ladders, stairs or bridgeways.",None
+building,accommodation,building,trullo,A stone hut with a conical roof.,None
+building,commercial,building,commercial,"A building for non-specific commercial activities, not necessarily an office building. Consider tagging the surrounding area using landuse=commercial if there is such use. Use 'retail' if the building consists primarily of shops.",None
+building,commercial,building,industrial,A building for industrial purposes. Use warehouse if the purpose is known to be primarily for storage/distribution. Consider using landuse=industrial for the surrounding area and appropriate tags like man_made=works to describe the industrial activity.,None
+building,commercial,building,kiosk,A small one-room retail building.,None
+building,commercial,building,office,An office building. Use office=* where applicable for the business(es) that use the building. Consider tagging the surrounding area using landuse=commercial if it applies. Prefer landuse=retail if the building consists primarily of shops.,None
+building,commercial,building,retail,"A building primarily used for selling goods that are sold to the public; use shop=* to identify the sort of goods sold or an appropriate amenity=* (pub, cafe, restaurant, etc.). Consider use landuse=retail for the surrounding area.",None
+building,commercial,building,supermarket,A building constructed to house a self-service large-area store.,None
+building,commercial,building,warehouse,A building primarily intended for the storage or goods or as part of a distribution system.,None
+building,religious,building,religious,Unspecific building related to religion. Prefer more specific values if possible.,None
+building,religious,building,cathedral,"A building that was built as a cathedral. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the cathedral grounds where it is in current use.",None
+building,religious,building,chapel,"A building that was built as a chapel. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the chapel grounds where it is in current use.",None
+building,religious,building,church,"A building that was built as a church. Used in conjunction with amenity=place_of_worship, religion=* , denomination=* and landuse=religious for the church grounds where it is in current use.",None
+building,religious,building,kingdom_hall,"A building that was built as a Kingdom Hall. Often used in conjunction with amenity=place_of_worship, religion=christian, denomination=jehovahs_witness and landuse=religious for the grounds where it is in current use.",None
+building,religious,building,monastery,"A building constructed as monastery. Often, monasteries consist of several distinct buildings with specific functions. For active monasteries (communities), use amenity=monastery, for the grounds of a former monastery, have a look at historic=monastery",None
+building,religious,building,mosque,"A building errected as mosque. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the grounds where it is in current use.",None
+building,religious,building,presbytery,A building where priests live and work.,None
+building,religious,building,shrine,"A building that was built as a shrine. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the grounds where it is in current use. Small structures should consider historic=wayside_shrine.",None
+building,religious,building,synagogue,"A building that was built as a synagogue. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the grounds where it is in current use.",None
+building,religious,building,temple,"A building that was built as a temple. Used in conjunction with amenity=place_of_worship, religion=*, denomination=* and landuse=religious for the grounds where it is in current use.",None
+building,civic/amenity,building,bakehouse,A building that was built as a bakehouse (i.e. for baking bread). Often used in conjunction with another node amenity=baking_oven and oven=wood_fired.,None
+building,civic/amenity,building,bridge,A building used as a bridge (skyway). To map a gatehouse use building=gatehouse. See also bridge=yes for highway=*. Don't use this tag just for marking bridges (their outlines). For such purposes use man_made=bridge.,None
+building,civic/amenity,building,civic,"A generic tag for a building created to house some civic amenity, for example amenity=community_centre, amenity=library, amenity=toilets, leisure=sports_centre, leisure=swimming_pool, amenity=townhall etc. Use amenity=* or leisure=* etc. to provide further details. See building=public and more specific tags like building=library as well.",None
+building,civic/amenity,building,college,A college building. Use amenity=college on the whole college area to represent the college as an institution.,None
+building,civic/amenity,building,fire_station,"A building constructed as fire station, i.e. to house fire fighting equipment and officers, regardless of current use. Add amenity=fire_station on the grounds for an active fire station.",None
+building,civic/amenity,building,government,"For government buildings in general, including municipal, provincial and divisional secretaries, government agencies and departments, town halls, (regional) parliaments and court houses.",None
+building,civic/amenity,building,gatehouse,"An entry control point building, spanning over a highway that enters a city or compound.",None
+building,civic/amenity,building,hospital,A building errected for a hospital. Use amenity=hospital for the hospital grounds.,None
+building,civic/amenity,building,kindergarten,"For any generic kindergarten buildings. Buildings for specific uses (sports halls etc.) should be tagged for their purpose. If there is currently a kindergarten in the building, use amenity=kindergarten on the perimeter of the kindergarten grounds.",None
+building,civic/amenity,building,museum,A building which was designed as a museum.,None
+building,civic/amenity,building,public,"A building constructed as accessible to the general public (a town hall, police station, court house, etc.).",None
+building,civic/amenity,building,school,"A building errected as school. Buildings for specific uses (sports halls etc.) should be tagged for their purpose. If there is currently a school, use amenity=school on the perimeter of the school grounds.",None
+building,civic/amenity,building,toilets,A toilet block.,None
+building,civic/amenity,building,train_station,"A building constructed to be a train station building, including buildings that are abandoned and used nowadays for a different purpose.",None
+building,civic/amenity,building,transportation,"A building related to public transport. You will probably want to tag it with proper transport related tag as well, such as public_transport=station. Note that there is a special tag for train station buildings - building=train_station.",None
+building,civic/amenity,building,university,A university building. Use amenity=university for the university as an institution.,None
+building,agricultural/plant production,building,barn,An agricultural building that can be used for storage and as a covered workplace.,None
+building,agricultural/plant production,building,conservatory,A building or room having glass or tarpaulin roofing and walls used as an indoor garden or a sunroom (winter garden).,None
+building,agricultural/plant production,building,cowshed,"A cowshed (cow barn, cow house) is a building for housing cows, usually found on farms.",None
+building,agricultural/plant production,building,farm_auxiliary,A building on a farm that is not a dwelling (use 'farm' or 'house' for the farm house).,None
+building,agricultural/plant production,building,greenhouse,A greenhouse is a glass or plastic covered building used to grow plants. Use landuse=greenhouse_horticulture for an area containing multiple greenhouses,None
+building,agricultural/plant production,building,slurry_tank,A circular building built to hold a liquid mix of primarily animal excreta (also known as slurry).,None
+building,agricultural/plant production,building,stable,A building constructed as a stable for horses.,None
+building,agricultural/plant production,building,sty,"A sty (pigsty, pig ark, pig-shed) is a building for raising domestic pigs, usually found on farms.",None
+building,agricultural/plant production,building,livestock,"A building for housing/rising other livestock (apart from cows, horses or pigs covered above), or when the livestock changes.",None
+building,sports,building,grandstand,"The main stand, usually roofed, commanding the best view for spectators at racecourses or sports grounds.",None
+building,sports,building,pavilion,"A sports pavilion usually with changing rooms, storage areas and possibly an space for functions & events. Avoid using this term for other structures called pavilions by architects (see Pavilion)",None
+building,sports,building,riding_hall,A building that was built as a riding hall.,None
+building,sports,building,sports_hall,A building that was built as a sports hall.,None
+building,sports,building,sports_centre,A building that was built as a sports centre.,None
+building,sports,building,stadium,"A building constructed to be a stadium building, including buildings that are abandoned and used nowadays for a different purpose.",None
+building,storage,building,allotment_house,A small outbuilding for short visits in a allotment garden.,None
+building,storage,building,boathouse,A boathouse is a building used for the storage of boats.,None
+building,storage,building,hangar,"A hangar is a building used for the storage of airplanes, helicopters or space-craft. Consider adding aeroway=hangar, when appropriate.",None
+building,storage,building,hut,"A hut is a small and crude shelter. Note that this word has two meanings - it may be synonym of building=shed, it may be a residential building of low quality.",None
+building,storage,building,shed,"A shed is a simple, single-storey structure in a back garden or on an allotment that is used for storage, hobbies, or as a workshop.",None
+building,cars,building,carport,"A carport is a covered structure used to offer limited protection to vehicles, primarily cars, from the elements. Unlike most structures a carport does not have four walls, and usually has one or two.",None
+building,cars,building,garage,"A garage is a building suitable for the storage of one or possibly more motor vehicle or similar. See building=garages for larger shared buildings. For an aircraft garage, see building=hangar.",None
+building,cars,building,garages,A building that consists of a number of discrete storage spaces for different owners/tenants. See also building=garage.,None
+building,cars,building,parking,Structure purpose-built for parking cars.,None
+building,power/technical buildings,building,digester,A digester is a bioreactor for the production of biogas from biomass.,None
+building,power/technical buildings,building,service,Service building usually is a small unmanned building with certain machinery (like pumps or transformers).,None
+building,power/technical buildings,building,tech_cab,Small prefabricated cabin structures for the air-conditioned accommodation of different technology.,None
+building,power/technical buildings,building,transformer_tower,A transformer tower is a characteristic tall building comprising a distribution transformer and constructed to connect directly to a medium voltage overhead power line. Quite often the power line has since been undergrounded but the building may still serve as a substation. If the building is still in use as a substation it should additionally be tagged as power=substation + substation=minor_distribution.,None
+building,power/technical buildings,building,water_tower,A water tower.,None
+building,power/technical buildings,building,storage_tank,Storage tanks are containers that hold liquids,None
+building,power/technical buildings,building,silo,A silo is a building for storing bulk materials,None
+building,other buildings,building,beach_hut,"A small, usually wooden, and often brightly coloured cabin or shelter above the high tide mark on popular bathing beaches.",None
+building,other buildings,building,bunker,A hardened military building. Also use military=bunker.,None
+building,other buildings,building,castle,A building constructed as a castle. Can be further specified with historic=castle + castle_type=*.,None
+building,other buildings,building,construction,Used for buildings under construction. Use construction=* to hold the value for the completed building.,None
+building,other buildings,building,container,"For a container used as a permanent building. Do not map containers placed temporarily, for example used in shipping or construction.",None
+building,other buildings,building,guardhouse,Poste de garde.,None
+building,other buildings,building,military,A military building. Also use military=*.,None
+building,other buildings,building,outbuilding,A less important building near to and on the same piece of land as a larger building.,None
+building,other buildings,building,pagoda,A building constructed as a pagoda.,None
+building,other buildings,building,quonset_hut,A lightweight prefabricated structure in the shape of a semicircle.,None
+building,other buildings,building,roof,"A structure that consists of a roof with open sides, such as a rain shelter, and also gas stations",None
+building,other buildings,building,ruins,"Frequently used for a house or other building that is abandoned and in poor repair. However, some believe this usage is incorrect, and the tag should only be used for buildings constructed as fake ruins (for example sham ruins in an English landscape garden). See also lifecycle tagging.",None
+building,other buildings,building,ship,A decommissioned ship/submarine which stays in one place.,None
+building,other buildings,building,tent,For a permanently placed tent. Do not map tents placed temporarily.,None
+building,other buildings,building,tower,A tower-building.,None
+building,other buildings,building,triumphal_arch,A free-standing monumental structure in the shape of an archway with one or more arched passageways.,None
+building,other buildings,building,windmill,"A building constructed as a traditional windmill, historically used to mill grain with wind power.",None
+building,other buildings,building,yes,Use this value where it is not possible to determine a more specific value.,None
+building,other buildings,building,user defined,"All commonly used values according to Taginfo, generally building types",None
+craft,craft,craft,agricultural_engines,A workplace or office of a person who plans and construct engines and tools for agricultural use.,node / area
+craft,craft,craft,atelier,A place where visual artists work,node / area
+craft,craft,craft,bag_repair,A place where bags/luggage are repaired.,node / area
+craft,craft,craft,bakery,A workplace for fresh bakery goods. May have no shop or be combined with a shop.,node / area
+craft,craft,craft,basket_maker,A person weaving baskets.,node / area
+craft,craft,craft,beekeeper,The workplace of a beekeeper (apiarist).,node / area
+craft,craft,craft,blacksmith,"A place where a blacksmith forges tools, horseshoes, etc. from iron.",node / area
+craft,craft,craft,boatbuilder,A workplace where boats are planned and constructed,node / area
+craft,craft,craft,bookbinder,A workplace for physically assembling a book from a number of sheets of paper.,node / area
+craft,craft,craft,brewery,A dedicated building for the making of beer.,node / area
+craft,craft,craft,builder,A workplace or office of a tradesman who performs structural alterations and additions to buildings.,node / area
+craft,craft,craft,cabinet_maker,A person who makes fine wooden furniture,node / area
+craft,craft,craft,candlemaker,A person who makes candles or a manufactory where candles were made.,node / area
+craft,craft,craft,car_painter,A place specializing in painting cars.,node / area
+craft,craft,craft,carpenter,"A workplace or office of carpenters that work with timber to construct, install and maintain buildings, furniture, and other objects.",node / area
+craft,craft,craft,carpet_cleaner,A carpet cleaner is a tradesman who specializes in cleaning carpets,node / area
+craft,craft,craft,carpet_layer,A carpet layer is a tradesmen who specializes in laying carpets,node / area
+craft,craft,craft,caterer,"A workplace or office of one who prepares customized meals for takeout, or provides prepared meals or supplies to a group at social gatherings",node / area
+craft,craft,craft,chimney_sweeper,A workplace or office of a person who cleans chimneys for a living.,node / area
+craft,craft,craft,cleaning,"Workplace or office of a person who cleans buildings, industrial facilities or windows.",node / area
+craft,craft,craft,clockmaker,"A workplace or office of a clockmaker that is building, repairing or engraving clocks of all sorts.",node / area
+craft,craft,craft,clothes_mending,A place where clothing is mended (repaired) or altered professionally.,node / area
+craft,craft,craft,confectionery,"A place where the set of food items that are rich in sugar, any one or type of which is called a confection is produced.",node / area
+craft,craft,craft,cooper,A person or company that manufacture of containers and vessels mainly made of wood.,node / area
+craft,craft,craft,dental_technician,A workplace for a dental technician who constructs custom-made restorative and dental appliances.,node / area
+craft,craft,craft,distillery,"An establishment for distilling, especially for distilling alcoholic liquors.",node / area
+craft,craft,craft,door_construction,A workplace of someone constructing doors,node / area
+craft,craft,craft,dressmaker,"Dressmaker is a person who makes custom clothing for women, such as dresses, blouses, and evening gowns.",node / area
+craft,craft,craft,electrician,A person or company that works with electricity or electrical systems.,node / area
+craft,craft,craft,electronics_repair,"Repair shops and service centres which provides repair of computers, phones, appliance etc.",node / area
+craft,craft,craft,elevator,Company specialized in installing elevators.,node / area
+craft,craft,craft,embroiderer,Needlework or textile artist,node / area
+craft,craft,craft,engraver,A workplace or office of an engraver.,node / area
+craft,craft,craft,fence_maker,A workplace or office of a person or company specialized in manufacturing and installing fences.,node / area
+craft,craft,craft,floorer,A workplace or office of a floorer.,node / area
+craft,craft,craft,gardener,A workplace or office of a garden designer or a landscape gardener.,node / area
+craft,craft,craft,glassblower,A person or company that blows bottles or other objects from molten glass.,node / area
+craft,craft,craft,glaziery,"A place where residential, commercial, and artistic glass is selected, cut, installed, replaced, and removed.",node / area
+craft,craft,craft,goldsmith,"The workplace of a person who forges things out of gold, especially jewelry.",node / area
+craft,craft,craft,grinding_mill,"A device that breaks solid materials into smaller pieces by grinding, crushing, or cutting. The aftermath is powdered product, not liquid extract like oil mill.",node / area
+craft,craft,craft,handicraft,A place where useful and decorative devices are made completely by hand or using only simple tools,node / area
+craft,craft,craft,hvac,"A workplace or office of a person or company that install and maintain HVAC systems (Heating, Ventilating, and Air Conditioning).",node / area
+craft,craft,craft,insulation,A workplace or office of a person who does thermal insulation in buildings.,node / area
+craft,craft,craft,interior_decorator,Workplace or office of a person who does interior decoratoring.,node / area
+craft,craft,craft,interior_work,"Workplace of a person who builds/installs non-load-bearing interior walls, especially drywall.",node / area
+craft,craft,craft,jeweller,"A place where necklaces, rings, brooches, earrings and bracelets and other personal adornments are created or repaired.",node / area
+craft,craft,craft,joiner,"An artisan who builds things by joining pieces of wood, particularly furniture or ornamental work.",node / area
+craft,craft,craft,key_cutter,A place where keys can be duplicated from originals.,node / area
+craft,craft,craft,laboratory,A laboratory.,node / area
+craft,craft,craft,lapidary,lapidary: a gemcutter,node / area
+craft,craft,craft,leather,A leatherworker; a person who makes things from leather.,node / area
+craft,craft,craft,locksmith,The workshop of a craftsman who installs or repairs locks and opens locked doors.,node / area
+craft,craft,craft,luthier,"Workshop of a luthier, who makes or repairs stringed wooden musical instruments, such as lutes, violins, and guitars.",node / area
+craft,craft,craft,metal_construction,"Workplace or office of a person who work with metal. This applies to: planning, construction, trade, repair.",node / area
+craft,craft,craft,mint,A place where coins and medals are hand crafted.,node / area
+craft,craft,craft,musical_instrument,A craftsman creating musical instruments,node / area
+craft,craft,craft,oil_mill,"A mill designed to crush or bruise oil-bearing seeds, such as linseed or peanuts, or other oil-rich vegetable material.",node / area
+craft,craft,craft,optician,"A place where lenses for the correction of a person's vision are designed, fitted and dispensed.",node / area
+craft,craft,craft,organ_builder,"Organ building is the profession of designing, building, restoring and maintaining pipe organs.",node / area
+craft,craft,craft,painter,A workplace or office of a house painter which is a tradesman responsible for the painting and decorating of buildings.,node / area
+craft,craft,craft,paperhanger,The office of a paperhanger.,node / area
+craft,craft,craft,parquet_layer,A workplace or office of a parquet layer.,node / area
+craft,craft,craft,paver,The workshop or office of a paver.,node / area
+craft,craft,craft,pest_control,A business that offers pest control services,node / area
+craft,craft,craft,photographer,A workplace or office of a person who takes photographs using a camera.,node / area
+craft,craft,craft,photographic_laboratory,"A place where photos taken on a film or digital images are transformed into a more permanent form, often on paper or plastic foil.",node / area
+craft,craft,craft,photovoltaic,A workplace or office who installed or planned photovoltaic systems.,node / area
+craft,craft,craft,piano_tuner,"A piano tuner or technician. A professional that tunes, regulates and makes the maintenance of pianos. Most of them repair simple problems and some restore a whole piano.",node / area
+craft,craft,craft,plasterer,"A workplace or office of a tradesman who works with plaster, such as forming a layer of plaster on an interior wall or plaster decorative moldings on ceilings or walls.",node / area
+craft,craft,craft,plumber,"A workplace or office of a skilled tradesperson who specializes in (drinking) water supply, sewage and drainage systems.",node / area
+craft,craft,craft,pottery,"A place where earthenware, stoneware and porcelain and other ceramic ware is made by potters.",node / area
+craft,craft,craft,printer,"A small printing business which produces published works such as newspapers, books, magazines, etc.",node / area
+craft,craft,craft,printmaker,A producer of fine art prints.,node / area
+craft,craft,craft,restoration,Restorer.,node / area
+craft,craft,craft,rigger,"The workplace of a person who sets up the rigging for sailboats and sailing ships (or possibly a person who works on ropes, booms, lifts, hoists and the like for a stage production).",node / area
+craft,craft,craft,roofer,A workplace or office of a tradesman who is specialized in roof covering and sealing.,node / area
+craft,craft,craft,saddler,A place where saddles or accessories for cars and boats are produced or repaired.,node / area
+craft,craft,craft,sailmaker,"A workshop of a sailmaker who cleans, repairs and makes sails.",node / area
+craft,craft,craft,sawmill,A sawmill is a facility where logs are cut into timber,node / area
+craft,craft,craft,scaffolder,A workplace or office of a tradesman who builds temporary structure used to support people and material in the construction or repair of buildings and other large structures.,node / area
+craft,craft,craft,sculptor,The workplace of a sculptor.,node / area
+craft,craft,craft,shoemaker,"A place where shoes, boots, sandals, clogs and moccasins are created, repaired or altered to fit personal needs.",node / area
+craft,craft,craft,signmaker,"A maker of signs, mainly for shops and other businesses.",node / area
+craft,craft,craft,stand_builder,A workplace of a company that builds stands/booths for fairs.,node / area
+craft,craft,craft,stonemason,A place where rough pieces of rock are shaped into accurate geometrical shapes.,node / area
+craft,craft,craft,stove_fitter,A workplace/office of a person / company who designs and builds stoves / tiled stoves.,node / area
+craft,craft,craft,sun_protection,"A place where sun protection is made, repaired, or delivered for assembly, especially awnings and shutters.",node / area
+craft,craft,craft,tailor,"A place where clothing is made, repaired, or altered professionally, especially suits and men's clothing.",node / area
+craft,craft,craft,tatami,A workplace or office of an artisan for tatami mat.,node / area
+craft,craft,craft,tiler,"A workplace or office of a person who lays tiles on floors, swimming pools and such.",node / area
+craft,craft,craft,tinsmith,"A person who makes and repairs things made of light-coloured metal, particularly tinware.",node / area
+craft,craft,craft,toolmaker,"A workplace of a company that builds complex tools, machine tools, moulds, gauges,... .",node / area
+craft,craft,craft,turner,A workplace or office of a turner.,node / area
+craft,craft,craft,upholsterer,"A place where furniture, especially seats are provided with padding, springs, webbing, and fabric or leather covers.",node / area
+craft,craft,craft,watchmaker,A watchmaker is an artisan who makes and repairs watches. Today due to industrial production they mostly repair watches.,node / area
+craft,craft,craft,water_well_drilling,A craftsman or company who drill water wells.,node / area
+craft,craft,craft,weaver,"Workshop of a person producing something by weaving, may offer products for sale",node / area
+craft,craft,craft,welder,One who unites pieces of metal with high temperature.,node / area
+craft,craft,craft,window_construction,A workplace of someone constructing windows.,node / area
+craft,craft,craft,winery,A place where wine is produced,node / area
+medical rescue,medical rescue,emergency,ambulance_station,"An ambulance station is a structure or other area set aside for storage of ambulance vehicles, medical equipment, personal protective equipment, and other medical supplies.",node / area
+medical rescue,medical rescue,emergency,defibrillator,"Defibrillator (AED), an external and portable electronic device that diagnoses and can correct arrhythmia of the heart automatically.",node
+medical rescue,medical rescue,emergency,landing_site,Preselected flat area for a helicopter to land in an emergency situation,node / area
+medical rescue,medical rescue,emergency,emergency_ward_entrance,The entrance to an emergency ward.,node
+firefighters,firefighters,emergency,fire_service_inlet,A inlet that allows the fire brigade pump water into a building.,node
+firefighters,firefighters,emergency,fire_alarm_box,A device used for notifying a fire department of a fire.,node
+firefighters,firefighters,emergency,fire_extinguisher,"An active fire protection device used to extinguish or control small fires, often in emergency situations.",node
+firefighters,firefighters,emergency,fire_hose,A high-pressure hose used to carry water or other fire retardant (such as foam) to a fire to extinguish it.,node
+firefighters,firefighters,emergency,fire_hydrant,"An active fire protection measure, and a source of water provided in most urban, suburban, and rural areas with municipal water service to enable fire fighters to tap into the municipal water supply to assist in extinguishing a fire.",node
+firefighters,firefighters,emergency,water_tank,A large water basin or tank for a fire department to take water.,node / area
+firefighters,firefighters,emergency,suction_point,A preferred point to pump water off a river or other waters for a fire department.,node
+lifeguards,lifeguards,emergency,lifeguard,A place where a lifeguard is on duty,node / area
+lifeguards,lifeguards,emergency,life_ring,A floating ring to throw out to someone who is struggling in water.,node
+lifeguards,lifeguards,lifeguard,tower,A tower used by lifeguard to watch and supervise swimmers in order to prevent drownings and other dangers.,node / area
+assembly point,assembly point,emergency,assembly_point,A designated (safe) place where people can gather or must report to during an emergency or a fire drill.,node / area
+other structure,other structure,emergency,phone,Emergency telephone,node
+other structure,other structure,emergency,siren,"A loud noise maker, such as an air raid siren or a tornado siren.",node
+other structure,other structure,emergency,drinking_water,A facility that provides drinking water in emergency situations,node
+geological,geological,geological,moraine,Any accumulation of unconsolidated rock debris previously carried by a glacier.,node / way / area
+geological,geological,geological,outcrop,A place where the bedrock or superficial deposits previously covered under the soil have become locally exposed,node / way / area
+geological,geological,geological,volcanic_caldera_rim,The crater (caldera) of a volcano.,way / area
+geological,geological,geological,fault,A geological fault is a planar fracture or discontinuity in a volume of rock.,way
+geological,geological,geological,fold,"Planar surfaces, such as sedimentary strata, that are bent or curved (""folded"")",node / way
+geological,geological,geological,palaeontological_site,A place with fossils.,node / area
+geological,geological,geological,volcanic_lava_field,An area with volcanic lava on the ground.,node / area
+geological,geological,geological,volcanic_vent,A hole through which the lava erupts.,node / area
+geological,geological,geological,glacial_erratic,A boulder deposited by a glacier.,node / area
+geological,geological,geological,rock_glacier,Rock glaciers are mixtures of rock and ice that move slowly downhill when active,node / area / relation
+geological,geological,geological,giants_kettle,A regular hole in a rock created by the rotation of stones in the bed of a stream.,node / area
+geological,geological,geological,meteor_crater,A crater formed by the impact of a meteor.,node / area
+geological,geological,geological,hoodoo,A column of rock with a hat,node / way / area
+geological,geological,geological,columnar_jointing,Several hexagonal columns of rock,node / way / area
+geological,geological,geological,dyke,a sheet of rock that fills a fracture of a pre-existing rock body or when standing alone looking like a man made wall,node / way / area
+geological,geological,geological,monocline,Step-like fold in rock strata consisting of a zone of a dip comprised between ~65° and 90°,node / way
+geological,geological,geological,tor,"A large, free-standing rock outcrop that rises abruptly",node / area / relation
+geological,geological,geological,unconformity,A buried erosional surface separating two rock masses or strata of different ages,node / way / area / relation
+geological,geological,geological,cone,A landform with a distinctly conical shape,node / area / relation
+geological,geological,geological,sinkhole,A depression or hole in the ground caused by some form of collapse of the surface,node / area / relation
+geological,geological,geological,pingo,Pingos are intrapermafrost ice-cored hills,node / area / relation
+geological,geological,geological,inselberg,"Inselberg are isolated rock hill, knob, ridge, or small mountain",node / way / area / relation
+geological,geological,geological,limestone_pavement,A natural karst landform consisting of a flat surface of limestone,node / area / relation
+healthcare,healthcare,healthcare,alternative,Someone practising alternative or complementary medicine but is not a medical practitioner or a place where alternative or complementary medicine is practices that does not fit into the other categories (except healthcare=yes),None
+healthcare,healthcare,healthcare,audiologist,Audiologist; if linked with a shop please use shop=hearing_aids instead,None
+healthcare,healthcare,healthcare,birthing_centre,A non-clinical birthing centre operated by midwives.,None
+healthcare,healthcare,healthcare,blood_bank,Blood bank,None
+healthcare,healthcare,healthcare,blood_donation,"A facility where you can donate blood, plasma and/or platelets, and possibly have stem cell samples taken.",None
+healthcare,healthcare,healthcare,counselling,"Healthcare counselling, e.g. an addiction centre, a nutritionist, or a sex therapist. Also see healthcare=nutrition_counselling",None
+healthcare,healthcare,healthcare,dialysis,A clinic for day patients to get a haemodialysis Dialysis,None
+healthcare,healthcare,healthcare,hospice,A Hospice which provides palliative care to terminal ill people and support to their relatives.,None
+healthcare,healthcare,healthcare,laboratory,"Medical laboratory also called (analytical, diagnostic) is a place that analyses body fluids such as blood, urine, faeces etc .",None
+healthcare,healthcare,healthcare,midwife,"A Midwife, a health professional who cares for mothers and newborns around childbirth.",None
+healthcare,healthcare,healthcare,nurse,Nursing. A facility where some nurses may receive their patients.,None
+healthcare,healthcare,healthcare,occupational_therapist,Someone who practices occupational therapy but is not a medical practitioner.,None
+healthcare,healthcare,healthcare,optometrist,Optometrist; If linked with a shop please use shop=optician instead.,None
+healthcare,healthcare,healthcare,physiotherapist,Someone who practices physical therapy (or kinesiotherapy in French-speaking countries) but is not a medical practitioner.,None
+healthcare,healthcare,healthcare,podiatrist,Someone who practices podiatry but is not a Physician on Wikipedia.,None
+healthcare,healthcare,healthcare,psychotherapist,Someone who practices psychotherapy but is not a Physician on Wikipedia.,None
+healthcare,healthcare,healthcare,rehabilitation,Medical rehabilitation facility; should not be used for a wellness clinic or hotel.,None
+healthcare,healthcare,healthcare,sample_collection,Site or dedicated healthcare facility where samples of blood/urine/etc are obtained or collected for purpose of analysing them for healthcare diagnostics.,None
+healthcare,healthcare,healthcare,speech_therapist,Someone who practices speech and language therapy.,None
+healthcare,healthcare,healthcare,vaccination_centre,"a healthcare facility specifically dedicated to administering vaccinations to individuals, to provide immunisation against infectious diseases.",None
+highway,roads,highway,motorway,"A restricted access major divided highway, normally with 2 or more running lanes plus emergency hard shoulder. Equivalent to the Freeway, Autobahn, etc..",way
+highway,roads,highway,trunk,The most important roads in a country's system that aren't motorways. (Need not necessarily be a divided highway.),way
+highway,roads,highway,primary,The next most important roads in a country's system. (Often link larger towns.),way
+highway,roads,highway,secondary,The next most important roads in a country's system. (Often link towns.),way
+highway,roads,highway,tertiary,The next most important roads in a country's system. (Often link smaller towns and villages),way
+highway,roads,highway,unclassified,"The least important through roads in a country's system – i.e. minor roads of a lower classification than tertiary, but which serve a purpose other than access to properties. (Often link villages and hamlets.)
+The word 'unclassified' is a historical artefact of the UK road system and does not mean that the classification is unknown; you can use highway=road for that.",way
+highway,roads,highway,residential,"Roads which serve as an access to housing, without function of connecting settlements. Often lined with housing.",way
+highway,link roads,highway,motorway_link,The link roads (sliproads/ramps) leading to/from a motorway from/to a motorway or lower class highway. Normally with the same motorway restrictions.,way
+highway,link roads,highway,trunk_link,The link roads (sliproads/ramps) leading to/from a trunk road from/to a trunk road or lower class highway.,way
+highway,link roads,highway,primary_link,The link roads (sliproads/ramps) leading to/from a primary road from/to a primary road or lower class highway.,way
+highway,link roads,highway,secondary_link,The link roads (sliproads/ramps) leading to/from a secondary road from/to a secondary road or lower class highway.,way
+highway,link roads,highway,tertiary_link,The link roads (sliproads/ramps) leading to/from a tertiary road from/to a tertiary road or lower class highway.,way
+highway,special road types,highway,living_street,"For living streets, which are residential streets where pedestrians have legal priority over cars, speeds are kept very low.",way
+highway,special road types,highway,service,"For access roads to, or within an industrial estate, camp site, business park, car park, alleys, etc. Can be used in conjunction with service=* to indicate the type of usage and with access=* to indicate who can use it and in what circumstances.",way / area
+highway,special road types,highway,pedestrian,For roads used mainly/exclusively for pedestrians in shopping and some residential areas which may allow access by motorised vehicles only for very limited periods of the day. To create a 'square' or 'plaza' create a closed way and tag as pedestrian and also with area=yes.,way / area
+highway,special road types,highway,track,"Roads for mostly agricultural or forestry uses. To describe the quality of a track, see tracktype=*. Note: Although tracks are often rough with unpaved surfaces, this tag is not describing the quality of a road but its use. Consequently, if you want to tag a general use road, use one of the general highway values instead of track.",way
+highway,special road types,highway,bus_guideway,"A busway where the vehicle guided by the way (though not a railway) and is not suitable for other traffic. Please note: this is not a normal bus lane, use access=no, psv=yes instead!",way
+highway,special road types,highway,escape,"For runaway truck ramps, runaway truck lanes, emergency escape ramps, or truck arrester beds. It enables vehicles with braking failure to safely stop.",way
+highway,special road types,highway,raceway,A course or track for (motor) racing,way
+highway,special road types,highway,road,"A road/way/street/motorway/etc. of unknown type. It can stand for anything ranging from a footpath to a motorway. This tag should only be used temporarily until the road/way/etc. has been properly surveyed. If you do know the road type, do not use this value, instead use one of the more specific highway=* values.",way
+highway,special road types,highway,busway,A dedicated roadway for bus rapid transit systems,way
+highway,paths,highway,footway,"For designated footpaths; i.e., mainly/exclusively for pedestrians. This includes walking tracks and gravel paths. If bicycles are allowed as well, you can indicate this by adding a bicycle=yes tag. Should not be used for paths where the primary or intended usage is unknown. Use highway=pedestrian for pedestrianised roads in shopping or residential areas and highway=track if it is usable by agricultural or similar vehicles. For ramps (sloped paths without steps), combine this tag with incline=*.",way / area
+highway,paths,highway,bridleway,"For horse riders. Pedestrians are usually also permitted, cyclists may be permitted depending on local rules/laws. Motor vehicles are forbidden.",way
+highway,paths,highway,steps,For flights of steps (stairs) on footways. Use with step_count=* to indicate the number of steps,way
+highway,paths,highway,corridor,For a hallway inside of a building.,way
+highway,paths,highway,path,"A non-specific path. Use highway=footway for paths mainly for walkers, highway=cycleway for one also usable by cyclists, highway=bridleway for ones available to horse riders as well as walkers and highway=track for ones which is passable by agriculture or similar vehicles.",way
+highway,paths,highway,via_ferrata,"A via ferrata is a route equipped with fixed cables, stemples, ladders, and bridges in order to increase ease and security for climbers. These via ferrata require equipment : climbing harness, shock absorber and two short lengths of rope, but do not require a long rope as for climbing.",way
+highway,when sidewalk/crosswalk is tagged as a separate way,footway,sidewalk,Sidewalk that runs typically along residential road. Use in combination with highway=footway or highway=path,way
+highway,when sidewalk/crosswalk is tagged as a separate way,footway,crossing,"Crosswalk that connects two sidewalks on the opposite side of the road. Often recognized by painted markings on the road, road sign or traffic lights. Use in combination with highway=footway or highway=path. Useful information is presence of tactile_paving=*, wheelchair=* suitability and kerb=* represented as a node on the crosswalk way.",way
+highway,when sidewalk/crosswalk is tagged as a separate way,footway,traffic_island,"The way between two crossings, safespot for pedestrians, has micromapping characteristics as a detailed alternative to =*. Use in combination with highway=footway or highway=path.",way
+highway,when sidewalk (or pavement) is tagged on the main roadway (see sidewalks),sidewalk,both | left | right | no,"Specifies that the highways has sidewalks on both sides, on one side or no sidewalk at all",way
+highway,when cycleway is drawn as its own way (see bicycle),highway,cycleway,"For designated cycleways. Add foot=*, though it may be avoided if default-access-restrictions do apply.",way
+highway,cycleway tagged on the main roadway or lane (see bicycle),cycleway,lane,A lane is a route that lies within the roadway,way
+highway,cycleway tagged on the main roadway or lane (see bicycle),cycleway,opposite,Deprecated variant for ways with oneway=yes where it is legally permitted to cycle in both directions. Replaced by oneway:bicycle=no.,way
+highway,cycleway tagged on the main roadway or lane (see bicycle),cycleway,opposite_lane,"Deprecated variant for ways with oneway=yes that have a cycling lane going the opposite direction of normal traffic flow (a ""contraflow"" lane). Replaced by oneway:bicycle=no + cycleway:left=lane/cycleway:right=lane + cycleway:left:oneway=-1/cycleway:right:oneway=-1.",way
+highway,cycleway tagged on the main roadway or lane (see bicycle),cycleway,track,"A track provides a route that is separated from traffic. In the United States, this term is often used to refer to bike lanes that are separated from lanes for cars by pavement buffers, bollards, parking lanes, and curbs. Note that a cycle track may alternatively be drawn as a separate way next to the road which is tagged as highway=cycleway.",way
+highway,cycleway tagged on the main roadway or lane (see bicycle),cycleway,opposite_track,Deprecated variant for ways with oneway=yes that have a cycling track going the opposite direction of normal traffic flow. Replaced by oneway:bicycle=no + cycleway:left=track/cycleway:right=track + cycleway:left:oneway=-1/cycleway:right:oneway=-1.,way
+highway,cycleway tagged on the main roadway or lane (see bicycle),cycleway,share_busway,There is a bus lane that cyclists are permitted to use.,way
+highway,cycleway tagged on the main roadway or lane (see bicycle),cycleway,opposite_share_busway,"Deprecated variant for ways with oneway=yes that have a bus lane that cyclists are also permitted to use, and which go in the opposite direction to normal traffic flow (a ""contraflow"" bus lane). Replaced by oneway:bicycle=no + cycleway:left=share_busway/cycleway:right=share_busway + cycleway:left:oneway=-1/cycleway:right:oneway=-1.",way
+highway,cycleway tagged on the main roadway or lane (see bicycle),cycleway,shared_lane,"Cyclists share a lane with motor vehicles, there are markings reminding about this. In some places these markings are known as ""sharrows"" ('sharing arrows') and this is the tag to use for those.",way
+highway,busways tagged on the main roadway or lane (see bus lanes),busway,lane,Deprecated variant to tag bus lanes. Replaced by bus/psv lane tagging lanes:bus=* / lanes:psv=*) / bus:lanes=* / psv:lanes=*,way
+highway,busways tagged on the main roadway or lane (see bus lanes),busway,opposite,Deprecated variant for ways with oneway=yes where buses are legally permitted to travel in both directions. Replaced by oneway:bus=no,way
+highway,busways tagged on the main roadway or lane (see bus lanes),busway,opposite_lane,"Deprecated variant for ways with oneway=yes that have a bus lane which go in the opposite direction to normal traffic flow (a ""contraflow"" bus lane). Replaced by oneway:bus=no and lanes:bus=* / lanes:psv=*) / bus:lanes=* / psv:lanes=*",way
+highway,street parking tagged on the main roadway (see street parking),"parking:left / :right / :both
+(hereafter: parking:side)",lane | street_side | on_kerb | half_on_kerb | shoulder | no | separate | yes,Primary key to record parking along the street. Describes the parking position of parked vehicles in the street.,way
+highway,street parking tagged on the main roadway (see street parking),parking:sideorientation=*,parallel | diagonal | perpendicular,To specify the orientation of parked vehicles if there is street parking.,way
+highway,lifecycle (see also lifecycle prefixes),highway,proposed,"For planned roads, use with proposed=* and a value of the proposed highway value.",way
+highway,lifecycle (see also lifecycle prefixes),highway,construction,For roads under construction. Use construction=* to hold the value for the completed road.,way
+highway,attributes,abutters,commercial | industrial | mixed | residential | retail etc.,See Key:abutters for more details.,way
+highway,attributes,bicycle_road,yes,"A bicycle road is a road designated for bicycles. If residential streets get the status of bicycle roads, normally, by special signs, motor traffic is admitted with limited speed, often only for residents.",way
+highway,attributes,bus_bay,both | left | right,A bus bay outside the main carriageway for boarding/alighting,way
+highway,attributes,change,yes | no | not_right | not_left | only_right | only_left,Specify the allowed/forbidden lane changes,way
+highway,attributes,destination,<place name of destination>,Destination when following a linear feature,way
+highway,attributes,embankment,yes | dyke,"A dyke or a raised bank to carry a road, railway, or canal across a low-lying or wet area.",way
+highway,attributes,embedded_rails,yes | <type of railway>,A highway on which non-railway traffic is also allowed has railway tracks embedded in it but the rails are mapped as separate ways.,way
+highway,attributes,ford,yes,"The road crosses through stream or river, vehicles must enter any water.",node / way
+highway,attributes,frontage_road,yes,A frontage road.,way
+highway,attributes,ice_road,yes,"A highway is laid upon frozen water basin, definitely doesn't exist in summer.",way
+highway,attributes,incline,Number % | ° | up | down,"Incline steepness as percents (""5%"") or degrees (""20°""). Positive/negative values indicate movement upward/downwards in the direction of the way.",node / way
+highway,attributes,junction,roundabout,"This automatically implies oneway=yes, the oneway direction is defined by the sequential ordering of nodes within the Way. This applies on a way, tagged with highway=* already.",way / closedway
+highway,attributes,lanes,<number>,"The number of traffic lanes for general purpose traffic, also for buses and other specific classes of vehicle.",way
+highway,attributes,lane_markings,yes | no,Specifies if a highway has painted markings to indicate the position of the lanes.,way
+highway,attributes,lit,yes | no,Street lighting,node / way / area
+highway,attributes,maxspeed,<number>,"Specifies the maximum legal speed limit on a road, railway or waterway.",way
+highway,attributes,motorroad,yes | no,The motorroad tag is used to describe highways that have motorway-like access restrictions but that are not a motorway.,way / node
+highway,attributes,mountain_pass,yes,The highest point of a mountain pass.,node
+highway,attributes,mtb:scale,0-6,Applies to highway=path and highway=track. A classification scheme for mtb trails (few inclination and downhill).,way
+highway,attributes,mtb:scale:uphill,0-5,A classification scheme for mtb trails for going uphill if there is significant inclination.,way
+highway,attributes,mtb:scale:imba,0-4,The IMBA Trail Difficulty Rating System shall be used for bikeparks. It is adapted to mtb trails with artificial obstacles.,way
+highway,attributes,mtb:description,Text,Applies to highway=path and highway=track. A key to input variable infos related to mtbiking on a way with human words,way
+highway,attributes,oneway,yes | no | reversible,Oneway streets are streets where you are only allowed to drive in one direction.,way
+highway,attributes,oneway:bicycle,yes | no |,Used on ways with oneway=yes where it is legally permitted to cycle in both directions.,way
+highway,attributes,overtaking,yes | no | caution | both | forward | backward,Specifying sections of roads where overtaking is legally forbidden. Use overtaking:forward=yes/no/caution and overtaking:backward=yes/no/caution when it depends on driving direction.,way
+highway,attributes,parking:lane,parallel | diagonal | perpendicular | marked | no_parking | no_stopping | fire_lane.,Deprecated variant to map parking along streets. See section on street parking above or the street parking page for more details.,way
+highway,attributes,parking:condition,free | ticket | disc | residents | customers | private,Deprecated variant to map parking conditions along streets. See section on street parking above or the street parking page for more details.,way
+highway,attributes,passing_places,yes,A way which has frequent passing places (See also: highway=passing_place),way
+highway,attributes,priority,forward | backward,"Traffic priority for narrow parts of roads, e.g. narrow bridges.",way
+highway,attributes,priority_road,designated | yes_unposted | end,Specifying roads signposted as priority roads.,way
+highway,attributes,sac_scale,strolling | hiking | mountain_hiking | demanding_mountain_hiking | alpine_hiking | demanding_alpine_hiking | difficult_alpine_hiking,Applies to highway=path and highway=footway. A classification scheme for hiking trails.,way
+highway,attributes,service,alley | driveway | parking_aisle etc.,See Key:service for more details.,way
+highway,attributes,shoulder,no | yes | right | both | left,Presence of shoulder in highway,way
+highway,attributes,side_road,yes,A side road.,way
+highway,attributes,smoothness,excellent | good | intermediate | bad | very_bad | horrible | very_horrible | impassable,Specifies the physical usability of a way for wheeled vehicles due to surface regularity/flatness. See Key:smoothness for more details.,way / area
+highway,attributes,surface,paved | unpaved | asphalt | concrete | paving_stones | sett | cobblestone | metal | wood | compacted | fine_gravel | gravel | pebblestone | plastic | grass_paver | grass | dirt | earth | mud | sand | ground,See Key:surface for more details.,way
+highway,attributes,tactile_paving,yes | no,A paving in the ground to be followed with a blindman's stick.,node / way / area
+highway,attributes,tracktype,grade1 | grade2 | grade3 | grade4 | grade5,To describe the quality of the surface. See Key:tracktype for more information.,way
+highway,attributes,traffic_calming,bump | hump | table | island | cushion | yes | etc.,Features used to slow down traffic. See Key:traffic calming for more details.,node / way
+highway,attributes,trail_visibility,excellent | good | intermediate | bad | horrible | no,"Applies to highway=path, highway=footway, highway=cycleway and highway=bridleway. A classification for hiking trails visibility",way
+highway,attributes,trailblazed,yes | no | poles | cairns | symbols,Applies to highway=*. Describing trail blazing and marking. See Key:trailblazed for more information.,way
+highway,attributes,trailblazed:visibility,excellent | good | intermediate | bad | horrible | no,Applies to trailblazed=*. A classification for visibility of trailblazing. See Key:trailblazed:visibility for more information.,way
+highway,attributes,turn,left | slight_left | through | right | slight_right | merge_to_left | merge_to_right | reverse,The key turn can be used to specify the direction in which a way or a lane will lead.,way
+highway,attributes,width,<number>,The width of a feature.,way
+highway,attributes,winter_road,yes,"A highway functions during winter, probably can't be driven in summer.",way
+highway,other highway features,highway,bus_stop,A small bus stop. Optionally one may also use public_transport=stop_position for the position where the vehicle stops and public_transport=platform for the place where passengers wait.,node
+highway,other highway features,highway,crossing,"A.k.a. crosswalk. Pedestrians can cross a street here; e.g., zebra crossing",node
+highway,other highway features,highway,cyclist_waiting_aid,Street furniture for cyclists that are intended to make waiting at esp. traffic lights more comfortable.,node
+highway,other highway features,highway,elevator,"An elevator or lift, used to travel vertically, providing passenger and freight access between pathways at different floor levels.",node / way
+highway,other highway features,highway,emergency_bay,An area beside a highway where you can safely stop your car in case of breakdown or emergency.,node / way
+highway,other highway features,highway,emergency_access_point,Sign number which can be used to define your current position in case of an emergency. Use with ref=NUMBER_ON_THE_SIGN. See also emergency=access_point,node
+highway,other highway features,highway,give_way,"A ""give way,"" or ""Yield"" sign",node
+highway,other highway features,emergency,phone,A calling device can be used to tell on your current position in case of an emergency. Use with ref=NUMBER_ON_THE_SIGN,node
+highway,other highway features,highway,hitchhiking,"Like a bus_stop but for free, uncertain, spontaneous rides with strangers.",node
+highway,other highway features,highway,ladder,A vertical or inclined set of steps or rungs intended for climbing or descending of a person with the help of hands.,node / way
+highway,other highway features,highway,milestone,Highway location marker,node
+highway,other highway features,highway,mini_roundabout,"Similar to roundabouts, but at the center there is either a painted circle or a fully traversable island. In case of an untraversable center island, junction=roundabout should be used.
+Rendered as anti-clockwise by default direction=anticlockwise. To render clockwise add the tag direction=clockwise.",node
+highway,other highway features,highway,motorway_junction,"Indicates a junction (UK) or exit (US). ref=* should be set to the exit number or junction identifier. (Some roads – e.g., the A14 – also carry junction numbers, so the tag may be encountered elsewhere despite its name)",node
+highway,other highway features,highway,passing_place,The location of a passing space,node
+highway,other highway features,highway,platform,A platform at a bus stop or station.,node / way / area
+highway,other highway features,highway,rest_area,"Place where drivers can leave the road to rest, but not refuel.",node / area
+highway,other highway features,highway,services,"A service station to get food and eat something, often found at motorways",node / area
+highway,other highway features,highway,speed_camera,A fixed road-side or overhead speed camera.,node
+highway,other highway features,highway,speed_display,A dynamic electronic sign that displays the speed of the passer-by motorist.,node
+highway,other highway features,highway,stop,A stop sign,node
+highway,other highway features,highway,street_lamp,"A street light, lamppost, street lamp, light standard, or lamp standard is a raised source of light on the edge of a road, which is turned on or lit at a certain time every night",node
+highway,other highway features,highway,toll_gantry,"A toll gantry is a gantry suspended over a way, usually a motorway, as part of a system of electronic toll collection. For a toll booth with any kind of barrier or booth see: barrier=toll_booth",node
+highway,other highway features,highway,traffic_mirror,Mirror that reflects the traffic on one road when direct view is blocked.,node
+highway,other highway features,highway,traffic_signals,Lights that control the traffic,node
+highway,other highway features,highway,trailhead,Designated place to start on a trail or route,node
+highway,other highway features,highway,turning_circle,"A turning circle is a rounded, widened area usually, but not necessarily, at the end of a road to facilitate easier turning of a vehicle. Also known as a cul de sac.",node
+highway,other highway features,highway,turning_loop,"A widened area of a highway with a non-traversable island for turning around, often circular and at the end of a road.",node
+highway,other highway features,highway,User Defined,All commonly used values according to Taginfo,node / way
+historic,historic,historic,aircraft,A decommissioned aircraft which generally remains in one place.,node / area
+historic,historic,historic,anchor,A historic/retired anchor. Usually found in historic maritime areas.,node
+historic,historic,historic,aqueduct,A historic structure to convey water,way / area
+historic,historic,historic,archaeological_site,A place in which evidence of past activity is preserved.,node / way / area
+historic,historic,historic,battlefield,The site of a battle or military skirmish in the past.,node / area
+historic,historic,historic,bomb_crater,A bomb crater,node / area
+historic,historic,historic,boundary_stone,A historic physical marker that identifies a boundary,node
+historic,historic,historic,building,Unspecified historic building.,node / area
+historic,historic,historic,bullaun_stone,A stone with one or more depressions,node / relation
+historic,historic,historic,cannon,A historic/retired cannon. Usually found on forts or battlefields.,node
+historic,historic,historic,castle,"Used for various kinds of castles, palaces, fortresses, manors, stately homes, kremlins, shiros and other.",node / area
+historic,historic,historic,castle_wall,A fortification surrounding the bailey of a castle.,way / area
+historic,historic,historic,cattle_crush,,None
+historic,historic,historic,charcoal_pile,Historic site of a charcoal pile. Often still in good condition in hilly forest areas.,node / area
+historic,historic,historic,church,A church with a historical value.,node / area
+historic,historic,historic,city_gate,A city gate within a city wall,node / area
+historic,historic,historic,citywalls,A citywall is a fortification used to defend a city.,way / area
+historic,historic,historic,creamery,"A creamery is an industrial building where butter and sometimes cheese or ice-cream were made from milk. For rural communities, it also served as a social gathering point.",node / area
+historic,historic,historic,district,A designated historic district.,node / area
+historic,historic,historic,epigraph,A historic inscription on an object,node / way / area
+historic,historic,historic,farm,"A historical farm, kept in its original state.",node / area
+historic,historic,historic,fort,"A military fort, a stand-alone defensive structure which differs from a castle in that there is no permanent residence.",node / area
+historic,historic,historic,gallows,Remains of a gallows.,node / area
+historic,historic,historic,house,A historic house.,node / area
+historic,historic,historic,high_cross,"An early medieaval standing cross, richly decorated, often with a ring surrounding the crossing point.",node
+historic,historic,historic,highwater_mark,A marker indicating a past flood or high water.,node
+historic,historic,historic,lavoir,A disused lavoir mapped for its historical value.,node / area
+historic,historic,historic,lime_kiln,Built structure which was used in the past to produce quicklime from limestone.,node / area
+historic,historic,historic,locomotive,A decommissioned locomotive which generally remains in one place,node / area
+historic,historic,historic,machine,A historic machine.,node / area
+historic,historic,historic,manor,Historic manors/mansions having different use today,node / area
+historic,historic,historic,memorial,"Small memorials, usually remembering special persons, people who lost their lives in the wars, past events or missing places.",node / area
+historic,historic,historic,milestone,A historic marker that shows the distance to important destinations.,node
+historic,historic,historic,millstone,A large round stone used for grinding grain or other materials.,node
+historic,historic,historic,mine,Location of historic underground mine workings for minerals such as coal or lead.,node / area
+historic,historic,historic,minecart,A cart used to transport coal or ore from a mine.,node / area
+historic,historic,historic,monastery,Building/place that is a historically significant monastery.,node / area
+historic,historic,historic,monument,"A memorial object, which is especially large, built to remember, show respect to a person or group of people or to commemorate an event.",node / area
+historic,historic,historic,mosque,A mosque with a historical and archaeological value.,node / area
+historic,historic,historic,ogham_stone,"A stone with an Ogham script on it. They are most commonly found in Ireland as free standing stones, lying on the ground, recycled in buildings such as churches or as artefacts in museums.",node
+historic,historic,historic,optical_telegraph,Semaphore system,node / area
+historic,historic,historic,pa,A New Zealand Maori Pā,None
+historic,historic,historic,pillory,A pillory.,node
+historic,historic,historic,pound,"A former amenity to hold stray or seized animals, often walled.",node / area
+historic,historic,historic,railway_car,A decommissioned railway car which generally remains in one place,node / area
+historic,historic,historic,road,A road or street that is of historical importance.,way
+historic,historic,historic,round_tower,"Slim, conical tower built as a bell tower and watchtower in Ireland.",node / area / relation
+historic,historic,historic,ruins,"Remains of structures that were once complete, but have fallen into partial or complete disrepair.",node / way / area
+historic,historic,historic,rune_stone,"Stones, boulders or bedrock with historical runic inscriptions.",node
+historic,historic,historic,shieling,An abandoned mountain pasture,node / area
+historic,historic,historic,ship,A decommissioned ship/submarine which generally remains in one place,node / area
+historic,historic,historic,stećak,Specifies megalithic gravestone from medieval Bosnia.,node / area
+historic,historic,historic,stone,A stone shaped or placed by man with historical value.,node
+historic,historic,historic,tank,A decommissioned tank which generally remains in one place,node / area
+historic,historic,historic,temple,"An ancient pagan temple in_situ and in various degree of preservation, such as Ziggurat, Egyptian temple, Mithraeum, Erechtheion, Buddhist, Meso-American and other ancient religious and rituals' temples, with a historical and archaeological value.",node / area
+historic,historic,historic,tomb,A structure where somebody has been buried.,node / area
+historic,historic,historic,tower,This property distinguishes a tower as historic,node / area
+historic,historic,historic,vehicle,A decommissioned vehicle which generally remains in one place,node / area
+historic,historic,historic,wayside_cross,"A historical cross along a way, symbol of Christian faith.",node
+historic,historic,historic,wayside_shrine,A shrine often showing a religious depiction. Tag is used also for modern shrines.,node / area
+historic,historic,historic,wreck,A nautical craft that has been sunk or destroyed.,node / area
+historic,historic,historic,yes,Used to add the historic significance of the objects described by other tags.,node / way / area
+landuse,common landuse key values - developed land,landuse,commercial,"Predominantly commercial businesses and their offices. Commercial businesses which sell goods should be categorised as landuse=retail. Commercial businesses can sell services on site and may include private Doctor's Surgeries, and those non-government services for mental and physical health, such as a Counselor's or Physiotherapist's practice or Veterinary. Commercial businesses can also include office buildings and business parks which have limited interface with the public and sell their services either on site, or externally. Commercial businesses have low amounts of public foot traffic.",node / area
+landuse,common landuse key values - developed land,landuse,construction,"A site which is under active development and construction of a building or structure, including any purposeful alteration to the land or vegetation upon it. Abandoned construction projects and sites should not use this tag.",node / area
+landuse,common landuse key values - developed land,landuse,education,An area predominately used for educational purposes/facilities.,node / area
+landuse,common landuse key values - developed land,landuse,fairground,A site where a fair takes place,node / area
+landuse,common landuse key values - developed land,landuse,industrial,"Predominantly industrial landuses such as workshops, factories, or warehouses.",node / area
+landuse,common landuse key values - developed land,landuse,residential,"Land where people reside; predominantly residential detached (single houses, grouped dwellings), or attached (apartments, flats, units) dwellings. For ""Mixed-Use"" areas where more than half of the land is residential, tag as residential.
+See also: Land use and areas of natural land#Open questions and Land use and areas of natural land § Open questions",node / area
+landuse,common landuse key values - developed land,landuse,retail,"Predominantly retail businesses such as shops. Retail businesses sell physical goods such as food (prepared or grocery), clothing, medicine, stationary, appliances, tools, or other similar physical items. Retail businesses have high amounts of public foot traffic. Retail businesses do not exclusively provide or sell their services. For businesses which sell services see landuse=commercial.
+Generally a member of the public could freely walk into and access a retail business. Retail is a subset of commercial, but should be used and treated as mutually exclusive in OpenStreetMap.",node / area
+landuse,common landuse key values - developed land,landuse,institutional,"Land used for institutional purposes, see Institution (disambiguation). Institutional land may contain one or more buildings like an office=government, office=ngo, office=association, amenity=social_facility and their associated infrastructure (car parks, service roads, yards and so-on) inside the area.
+The meaning of this tag is ambiguous and unclear by some. Consider using another tag that better describes the object. For instance landuse=civic_admin.",node / area
+landuse,common landuse key values - rural and agricultural land,landuse,aquaculture,"Aquaculture is the farming of freshwater and saltwater organisms such as finfish, molluscs, crustaceans and aquatic plants.
+Warning: currently, there is no convention on the exact meaning of this tag. Therefore, it makes sense to treat it like ""boundary of aquaculture"" (without implication of water body), which means, water body should be tagged by its own, using natural=water etc.",node / area
+landuse,common landuse key values - rural and agricultural land,landuse,allotments,A piece of land given over to local residents for growing vegetables and flowers.,node / area
+landuse,common landuse key values - rural and agricultural land,landuse,farmland,"An area of farmland used for tillage (cereals, vegetables, oil plants, flowers).",area
+landuse,common landuse key values - rural and agricultural land,landuse,farmyard,"An area of land with farm buildings like farmhouse, dwellings, farmsteads, sheds, stables, barns, equipment sheds, feed bunkers, etc. plus the open space in between them and the shrubbery/trees around them.",area
+landuse,common landuse key values - rural and agricultural land,landuse,paddy,An area of land where the surface and shape of the land is made suitable for growing rice.,area
+landuse,common landuse key values - rural and agricultural land,landuse,animal_keeping,"An area of land that is used to keep animals, particularly horses and livestock.",area
+landuse,common landuse key values - rural and agricultural land,landuse,flowerbed,An area designated for flowers,area
+landuse,common landuse key values - rural and agricultural land,landuse,forest,Managed forest or woodland plantation (Other languages). Some use this to map an area of trees rather than the use of the land. See Forest.,node / area
+landuse,common landuse key values - rural and agricultural land,landuse,logging,An area where some or all trees have been cut down,area
+landuse,common landuse key values - rural and agricultural land,landuse,greenhouse_horticulture,Area used for growing plants in greenhouses,area
+landuse,common landuse key values - rural and agricultural land,landuse,meadow,"A meadow or pasture: land primarily vegetated by grass and non-woody plants, mainly used for hay or grazing",node / area
+landuse,common landuse key values - rural and agricultural land,landuse,orchard,intentional planting of trees or shrubs maintained for food production,node / area
+landuse,common landuse key values - rural and agricultural land,landuse,plant_nursery,intentional planting of plants maintaining for the production of new plants,area
+landuse,common landuse key values - rural and agricultural land,landuse,vineyard,A piece of land where grapes are grown.,node / area
+landuse,common landuse key values - waterbody,landuse,basin,"An area artificially graded to hold water.
+Together with basin=* for stormwater/rainwater infiltration/detention/retention basins.
+Other languages.",node / area
+landuse,common landuse key values - waterbody,landuse,reservoir,A reservoir on Wikipedia. Deprecated variant of natural=water + water=reservoir. See Proposed features/Reservoir for details.,node / area
+landuse,common landuse key values - waterbody,landuse,salt_pond,A place where salt (saline) water is evaporated to extract its salt.,area
+landuse,other landuse key values,landuse,brownfield,Describes land scheduled for new development where old buildings have been demolished and cleared,node / area
+landuse,other landuse key values,landuse,cemetery,Place for burials. You can add religion=* (values listed in the place of worship page). Smaller places (e.g. with a church nearby) may use amenity=grave_yard instead.,node / area
+landuse,other landuse key values,landuse,conservation,"Protected areas (deprecated) Alternate tagging of same thing: boundary=protected_area, protected_area=*",area
+landuse,other landuse key values,landuse,depot,"An area used as a depot for e.g. vehicles (trains, buses or trams). Consider using rather standard landuse tags like landuse=railway, landuse=commercial, landuse=industrial, with subtag like industrial=depot.",area
+landuse,other landuse key values,landuse,garages,"One level buildings with boxes commonly for cars, usually made of brick and metal. Usually this area belong to garage cooperative with own name, chairman, budget, rules, security, etc.",area
+landuse,other landuse key values,landuse,grass,"An area of mown and managed grass not otherwise covered by a more specific tag. Some view this as not a landuse, see the main page landuse=grass for discussion.",node / area
+landuse,other landuse key values,landuse,greenfield,Describes land scheduled for new development where there have been no buildings before. A greenfield is scheduled to turn into a construction site,node / area
+landuse,other landuse key values,landuse,landfill,Place where waste is dumped.,node / area
+landuse,other landuse key values,landuse,military,For land areas owned/used by the military for whatever purpose,node / area
+landuse,other landuse key values,landuse,port,coastal industrial area where commercial traffic is handled. Consider using landuse=industrial + industrial=port for this type of industrial area.,area
+landuse,other landuse key values,landuse,quarry,Surface mineral extraction,node / area
+landuse,other landuse key values,landuse,railway,Area for railway use,area
+landuse,other landuse key values,landuse,recreation_ground,"An open green space for general recreation, which may include pitches, nets and so on, usually municipal but possibly also private to colleges or companies",node / area
+landuse,other landuse key values,landuse,religious,An area used for religious purposes,node / area
+landuse,other landuse key values,landuse,village_green,A village green is a distinctive area of grassy public land in a village centre. Not a generic tag for urban greenery. It is a typical English term – defined separately from 'common land' under the Commons Registration Act 1965 and the Commons Act 2006.,node / area
+landuse,other landuse key values,landuse,greenery,"Used for any area covered with landscaping or decorative greenery, regardless of it being on a roundabout, along a street or in a park/garden, This tag has been used for vegetation that is hard to classify, either because its kind or because its diversity.",area
+landuse,other landuse key values,landuse,winter_sports,An area dedicated to winter sports (e.g. skiing),node / area
+landuse,other landuse key values,landuse,user defined,All commonly used values according to Taginfo,node / area
+leisure,leisure,leisure,adult_gaming_centre,"A venue with gambling machines, usually with a minimum age requirement.",node / area
+leisure,leisure,leisure,amusement_arcade,A venue with pay-to-play games.,node / area
+leisure,leisure,leisure,beach_resort,"A managed beach, including within the boundary any associated facilities. Entry may also require payment of a fee.",node / area
+leisure,leisure,leisure,bandstand,A bandstand is an open structure where musical bands can perform concerts.,node / area
+leisure,leisure,leisure,bird_hide,"A place that is used to observe wildlife, especially birds.",node / area
+leisure,leisure,leisure,common,Identify land over which the public has general rights of use for certain leisure activities.,node / area
+leisure,leisure,leisure,dance,A dance venue or dance hall.,node / area
+leisure,leisure,leisure,disc_golf_course,A place to play disc golf.,node / area
+leisure,leisure,leisure,dog_park,"A designated area, with or without a fenced boundary, where dog-owners are permitted to exercise their pets unrestrained.",node / area
+leisure,leisure,leisure,escape_game,"A physical adventure game in which players solve a series of puzzles using clues, hints and strategy to complete the objectives at hand.",node / area
+leisure,leisure,leisure,firepit,"A fire ring or fire pit, often at a campsite or picnic site.",node / area
+leisure,leisure,leisure,fishing,A public or private place for fishing.,node / area
+leisure,leisure,leisure,fitness_centre,"Fitness centre, health club or gym with exercise machines, fitness classes or both, for exercise.",node / area
+leisure,leisure,leisure,fitness_station,An outdoor facility where people can practise typical fitness exercises.,node / area
+leisure,leisure,leisure,garden,A place where flowers and other plants are grown in a decorative and structured manner or for scientific purposes.,node / area
+leisure,leisure,leisure,hackerspace,"A place where people with common interests (science, technology, ...) meet.",node / area
+leisure,leisure,leisure,horse_riding,"A facility where people practise horse riding, usually in their spare time, e.g. a riding centre. For a riding arena use leisure=pitch + sport=equestrian.",node / area
+leisure,leisure,leisure,ice_rink,A place where you can skate and play bandy or ice hockey.,node / area
+leisure,leisure,leisure,marina,A facility for mooring leisure yachts and motor boats.,node / area
+leisure,leisure,leisure,miniature_golf,A place or area where you can play miniature golf.,node / area
+leisure,leisure,leisure,nature_reserve,"A protected area of importance for wildlife, flora, fauna or features of geological or other special interest.",node / area
+leisure,leisure,leisure,park,"A park, usually in an urban (municipal) setting, created for recreation and relaxation.",node / area
+leisure,leisure,leisure,picnic_table,A table with benches for food and rest.,node / area
+leisure,leisure,leisure,pitch,"An area designed for practising a particular sport, normally designated with appropriate markings.",node / area
+leisure,leisure,leisure,playground,A playground: an area designed for children to play.,node / area
+leisure,leisure,leisure,slipway,A slipway: a ramp for launching a boat into water.,node / area
+leisure,leisure,leisure,sports_centre,A sports centre is a distinct facility where sports take place within an enclosed area.,node / area
+leisure,leisure,leisure,stadium,A major sports facility with substantial tiered seating.,node / area
+leisure,leisure,leisure,summer_camp,A place for supervised camps for children or teenagers conducted during the summer months.,node / area
+leisure,leisure,leisure,swimming_area,"An area for swimming within a larger body of water (such as a river, lake or the sea) that is marked by a rope, buoys or similar.",node / area
+leisure,leisure,leisure,swimming_pool,A swimming pool (water area only).,node / area
+leisure,leisure,leisure,track,"A track for running, cycling and other non-motorised racing such as horses, greyhounds.",node / area
+leisure,leisure,leisure,water_park,"An amusement park with features like water slides, recreational pools (e.g. wave pools) or lazy rivers.",node / area
+man made,man made,man_made,adit,A type of entrance to an underground mine which is horizontal or nearly horizontal.,node
+man made,man made,man_made,beacon,A structure for signalling on land and sea,node / area
+man made,man made,man_made,breakwater,A man-made structure designed to protect a shore or harbour from the sea and waves.,way / area
+man made,man made,man_made,bridge,"The outline of a bridge, grouping together all features for that bridge.",area
+man made,man made,man_made,bunker_silo,An open-sided structure without a roof that can be used with vehicles to fill and empty them,node / area
+man made,man made,man_made,carpet_hanger,A construction to hang carpets for cleaning with the help of carpet beaters.,node / way
+man made,man made,man_made,chimney,"A tall distinctive vertical conduit for venting hot gases or smoke, normally found near power stations or large factories.",node / area
+man made,man made,man_made,column,A column used to support a structure or for decoration.,node / area
+man made,man made,man_made,communications_tower,A huge tower for transmitting radio applications,node / area
+man made,man made,man_made,crane,"A stationary, permanent crane.",node / area
+man made,man made,man_made,cross,"Cross, especially one with little historical value",node
+man made,man made,man_made,cutline,A straight line cut in a forest.,way
+man made,man made,man_made,clearcut,An area where all trees have been uniformly cut down.,area
+man made,man made,man_made,dovecote,A place where doves are farmed or stored.,node / area
+man made,man made,man_made,dyke,An embankment built to restrict the flow of water or other liquids,way
+man made,man made,man_made,embankment,An artificial steep slope. Lower side to right (arrows side).,way
+man made,man made,man_made,flagpole,A long pole built to hold a flag,node
+man made,man made,man_made,gasometer,A large container in which natural gas or town gas is stored near atmospheric pressure at ambient temperatures,node / area
+man made,man made,man_made,goods_conveyor,A conveyor system for transporting materials,way
+man made,man made,man_made,groyne,A rigid structure built from a shoreline or riverbank that interrupts water flow and limits the movement of sediment.,way / area
+man made,man made,man_made,guard_stone,"A guard stone: a stone built onto or into the corner of a building or wall to prevent carriages from damaging the structure, often found on either side of an entrance to a laneway, or alongside a wall to protect it.",node
+man made,man made,man_made,kiln,"A thermally insulated chamber used for processes such as burning, hardening, drying, or smelting.",node / area
+man made,man made,man_made,lighthouse,Tower that emits light to serve as a navigational aid at sea or on inland waterway,node / area
+man made,man made,man_made,mast,"A mast is a vertical structure built to hold, for example, antennas.",node
+man made,man made,man_made,mineshaft,A vertical tunnel into a mine where minerals are extracted.,node / area
+man made,man made,man_made,monitoring_station,A station that monitors something.,node / area
+man made,man made,man_made,obelisk,"Tall, narrow, four-sided, tapered monument which usually ends in a pyramid-like shape at the top.",node / area
+man made,man made,man_made,observatory,Observatory: a location used for observing terrestrial or celestial events.,node / area
+man made,man made,man_made,offshore_platform,"Offshore platform, oil platform or offshore drilling rig",node / area
+man made,man made,man_made,petroleum_well,"A hole bored in the earth, designed to bring petroleum oil or gas to the surface",node
+man made,man made,man_made,pier,"A pier is a raised walkway over water, supported by widely spread piles or pillars.",way / area
+man made,man made,man_made,pipeline,"A major pipeline carrying gas, water, oil, etc.",way
+man made,man made,man_made,pump,A device in charge of moving or raising the level of liquids.,node
+man made,man made,man_made,pumping_station,Pumping station: a facility including pumps and equipment for pumping fluids from one place to another,node / area
+man made,man made,man_made,reservoir_covered,A covered reservoir is a large man-made tank for holding fresh water,node / area
+man made,man made,man_made,sewer_vent,Used to map sewer vent pipes.,node
+man made,man made,man_made,silo,"A storage container for bulk material, often grains such as corn or wheat.",node / area
+man made,man made,man_made,snow_fence,A fence-like structure built to redirect drifting snow.,way
+man made,man made,man_made,snow_net,A netting fence built across steep slopes to reduce risk and severity of (snow) avalanches,node / way
+man made,man made,man_made,storage_tank,A container that holds liquids or compressed gases.,node / area
+man made,man made,man_made,street_cabinet,A cabinet located in the street and hosting technical equipment to operate facilities such as electricity or street lights.,node / area
+man made,man made,man_made,stupa,A Buddhist dome-shaped structure with a spire on top.,node / area
+man made,man made,man_made,surveillance,A surveillance camera or other type of surveillance equipment.,node
+man made,man made,man_made,survey_point,"A triangulation pillar, geodetic vertex, or other piece of fixed equipment used by topographers.",node
+man made,man made,man_made,tailings_pond,A body of liquid or slurry used to store byproducts of mining operations.,area
+man made,man made,man_made,telescope,Telescope: an instrument that aids in the observation of remote objects by collecting light or radio waves,node / area
+man made,man made,man_made,tower,A tower is a free-standing structure which is higher than it is wide.,node / area
+man made,man made,man_made,video_wall,"A digital screen, typically constructed out of smaller LED panels.",node / way
+man made,man made,man_made,wastewater_plant,A wastewater plant is a facility used to treat wastewater.,node / area
+man made,man made,man_made,watermill,A mill driven by water power.,node / area
+man made,man made,man_made,water_tower,Structure with a water tank at an altitude to increase pressure in water network,node / area
+man made,man made,man_made,water_well,"A structural facility to access ground water, created by digging or drilling.",node / area
+man made,man made,man_made,water_tap,Publicly usable water tap,node
+man made,man made,man_made,water_works,A facility where water is treated to make it suitable for human consumption.,node / area
+man made,man made,man_made,wildlife_crossing,Structure that allow animals to cross human barriers safely.,way / area
+man made,man made,man_made,windmill,"A traditional windmill, historically used to mill grain with wind power.",node / area
+man made,man made,man_made,works,A factory or industrial production plant.,node / area
+man made,man made,man_made,yes,Use tag:anthropogenic=yes or key:man_made instead.,None
+military,military,military,academy,A training establishment for military service members,node / area
+military,military,military,airfield,A place where military planes take off and land.,node / area
+military,military,military,base,A facility where military personnel and equipment are based.,node / area
+military,military,military,bunker,A building reinforced to withstand attack,node / area
+military,military,military,barracks,Buildings where military personnel live and sleep.,node / area
+military,military,military,checkpoint,Place where civilian visitors and vehicles will be checked by a military authority.,node
+military,military,military,danger_area,A danger area is a restricted area posing a threat to life or property.,node / area
+military,military,military,nuclear_explosion_site,Nuclear weapons test site,node / area
+military,military,military,obstacle_course,A military obstacle course: a series of challenging physical obstructions an individual or team must navigate usually while being timed.,way / area
+military,military,military,office,"Military offices, e.g. general staff office, military recruitment office etc",node / area
+military,military,military,range,"Where military personnel practice with their weapons (firing, bombing, artillery, ...).",node / area
+military,military,military,school,A school for children run as part of a country's military,node / area
+military,military,military,training_area,A military training area/proving ground,area
+military,military,military,trench,"A military trench is an excavation in the ground that is generally deeper than it is wide, dug into the ground as a barrier for military purposes (e.g. trench warfare).",node / way
+vegetation,vegetation,natural,fell,"Habitat above tree line covered with grass, dwarf shrubs and mosses.",node / area
+vegetation,vegetation,natural,grassland,An area where the vegetation is dominated by grasses and other herbaceous (non-woody) plants.,area
+vegetation,vegetation,natural,heath,"A dwarf-shrub habitat, characterised by open, low growing woody vegetation, often dominated by plants of the Ericaceae.",area
+vegetation,vegetation,natural,moor,"Don't use, see wikipage",None
+vegetation,vegetation,natural,scrub,"Uncultivated land covered with shrubs, bushes or stunted trees.",node / area
+vegetation,vegetation,natural,shrubbery,An area of woody shrubbery that is actively maintained or pruned by humans. A slightly wilder look is also possible.,area
+vegetation,vegetation,natural,tree,A single tree.,node
+vegetation,vegetation,natural,tree_row,A line of trees.,way
+vegetation,vegetation,natural,tundra,"Treeless cold climate habitat with open, low growing sedges, grasses, mosses and lichens.",area
+vegetation,vegetation,natural,wood,Tree-covered area (a 'forest' or 'wood'),node / area
+water related,water related,natural,bay,Named area of water mostly surrounded by land but with level connection to the ocean or a lake.,node / way / area
+water related,water related,natural,beach,"Landform along a body of water which consists of sand, shingle or other loose material.",node / area
+water related,water related,natural,blowhole,An opening to a sea cave which has grown landwards resulting in blasts of water from the opening due to the wave action.,node / area
+water related,water related,natural,cape,A piece of elevated land sticking out into the sea or large lake.,node
+water related,water related,natural,coastline,The line between sea and land indicating mean high water (springs): the water lies on the right side of the way.,way
+water related,water related,natural,crevasse,A large crack in a glacier,way / area
+water related,water related,natural,geyser,A spring characterized by intermittent discharge of water ejected turbulently and accompanied by steam,node
+water related,water related,natural,glacier,A permanent body of ice formed naturally from snow that is moving under its own weight.,node / area
+water related,water related,natural,hot_spring,A spring of geothermally heated groundwater,node / area
+water related,water related,natural,isthmus,"A narrow strip of land, bordered by water on both sides and connecting two larger land masses",node / area
+water related,water related,natural,mud,Area covered with mud: water saturated fine grained soil without significant plant growth.,area
+water related,water related,natural,peninsula,"A piece of land projecting into water from a larger land mass, nearly surrounded by water",node / area
+water related,water related,natural,reef,"A feature (rock, sandbar, coral, etc) lying permanently beneath the surface of the water.",node / way / area
+water related,water related,natural,shingle,An accumulation of rounded rock fragments on a beach or riverbed.,area
+water related,water related,natural,shoal,An area of the water floor which nears the water surface and is exposed at low tide or when a river/lake is not full of water.,area
+water related,water related,natural,spring,A place where ground water flows naturally from the ground,node / area
+water related,water related,natural,strait,A narrow area of water surrounded by land on two sides and by water on two other sides.,node / way / area
+water related,water related,natural,water,"Any inland body of water, from natural such as a lake or pond to artificial like a moat or canal.",node / area
+water related,water related,natural,wetland,A natural area subject to inundation or with waterlogged ground,area
+geology related,geology related,natural,arch,"A rock arch naturally formed by erosion, with an opening underneath.",node / way / area
+geology related,geology related,natural,arete,"A thin, almost knife-like, ridge of rock which is typically formed when two glaciers erode parallel U-shaped valleys",way
+geology related,geology related,natural,bare_rock,"An area with sparse or no vegetation, so that the bedrock becomes visible",area
+geology related,geology related,natural,blockfield,An area covered by boulder- or block-sized rocks.,area
+geology related,geology related,natural,cave_entrance,An entrance to a cave: a natural underground space large enough for a human to enter,node / area
+geology related,geology related,natural,cliff,"A vertical or almost vertical natural drop in terrain, usually with a bare rock surface. The bottom of the cliff is on the right side of the way.",node / way
+geology related,geology related,natural,dune,"A hill of sand formed by wind, covered with no or very little vegetation",node / way / area
+geology related,geology related,natural,earth_bank,Large erosion gully or steep earth bank.,way
+geology related,geology related,natural,fumarole,"A fumarole is an opening in a planet's crust, which emits steam and gases",node / area
+geology related,geology related,natural,hill,"A hill is a landform that is elevated above the surrounding terrain, but is smaller than a mountain.",node / area
+geology related,geology related,natural,peak,The top (summit) of a hill or mountain.,node
+geology related,geology related,natural,ridge,A mountain landform with a continuous elevated crest or linear hill,way
+geology related,geology related,natural,rock,A notable rock or group of rocks attached to the underlying bedrock,node / area
+geology related,geology related,natural,saddle,The lowest point along a ridge or between two mountain tops.,node
+geology related,geology related,natural,sand,An area covered by sand with no or very little vegetation.,area
+geology related,geology related,natural,scree,Unconsolidated angular stones formed by rockfall and weathering from adjacent rock faces.,area
+geology related,geology related,natural,sinkhole,A natural depression or hole in the surface topography.,node / area
+geology related,geology related,natural,stone,"A single notable freestanding rock, which may differ from the composition of the terrain it lies in.",node / area
+geology related,geology related,natural,valley,A natural depression flanked by ridges or ranges of mountains or hills,node / way
+geology related,geology related,natural,volcano,An opening exposed on the earth's surface where volcanic material is emitted.,node
+office,office,office,accountant,An office for an accountant.,node / area
+office,office,office,advertising_agency,"A service-based business dedicated to creating, planning, and handling advertising.",node / area
+office,office,office,airline,An office for an airline company.,node / area
+office,office,office,architect,An office for an architect or group of architects.,node / area
+office,office,office,association,"An office of a non-profit organisation, society, e.g. student, sport, consumer, automobile, bike association, etc.",node / area
+office,office,office,broadcaster,A radio or television broadcasting station.,node / area
+office,office,office,chamber,"Seat of a professional chamber, such as bar associations or chambers of commerce.",node / area
+office,office,office,charity,An office of a charitable organization,node / area
+office,office,office,company,An office of a private company.,node / area
+office,office,office,construction_company,An office of a building construction company.,node / area
+office,office,office,consulting,"An office for a consulting firm, providing expert professional advice to other companies or organisations.",node / area
+office,office,office,courier,"A courier delivery service, which is neither a post office nor a national post.",node / area
+office,office,office,coworking,An office where people can go to work (typically requires a fee); not limited to a single employer.,node / area
+office,office,office,diplomatic,"An embassy, diplomatic mission, consulate or liaison office of a foreign government or parastatal entity in a host country.",node / area
+office,office,office,educational_institution,An office for an educational institution.,node / area
+office,office,office,employment_agency,An office for an employment service.,node / area
+office,office,office,energy_supplier,An office for an energy supplier.,node / area
+office,office,office,engineer,An office for an engineer or group of engineers.,node / area
+office,office,office,estate_agent,A place where you can rent or buy a house.,node / area
+office,office,office,event_management,An office offering support for event planning and management,node / area
+office,office,office,financial,An office of a company in the financial sector.,node / area
+office,office,office,financial_advisor,A professional who offers financial planning and sells financial services to clients.,node / area
+office,office,office,forestry,A forestry office,node / area
+office,office,office,foundation,An office of a foundation,node / area
+office,office,office,geodesist,An office of scientists studying Earth shape.,node / area
+office,office,office,government,"An office of a (supra)national, regional or local government agency or department",node / area
+office,office,office,graphic_design,An office of a graphic designer.,node / area
+office,office,office,guide,"An office of tour guides, mountain guides, hiking guides, dive guides, etc.",node / area
+office,office,office,harbour_master,The Harbourmaster's office.,node / area
+office,office,office,insurance,An office at which you can take out insurance policies.,node / area
+office,office,office,it,An office for an IT company.,node / area
+office,office,office,lawyer,An office for a lawyer.,node / area
+office,office,office,logistics,An office for a company offering logistics.,node / area
+office,office,office,moving_company,An office which offers a relocation service.,node / area
+office,office,office,newspaper,An office of a newspaper,node / area
+office,office,office,ngo,"An office for a non-profit, non-governmental organisation (NGO).",node / area
+office,office,office,notary,An office for a notary public (common law),node / area
+office,office,office,politician,A politician's office.,node / area
+office,office,office,political_party,An office of a political party,node / area
+office,office,office,property_management,Office of a property rental company for residential apartments or commercial office space or any other property.,node / area
+office,office,office,publisher,An office of a publisher.,node / area
+office,office,office,quango,An office of a quasi-autonomous non-governmental organisation.,node / area
+office,office,office,religion,An office of a community of faith.,node / area
+office,office,office,research,An office for research and development,node / area
+office,office,office,security,An office for private security guards,node / area
+office,office,office,surveyor,"An office of a person doing technical surveys, such as land surveys or risk and damage evaluations of properties and equipment.",node / area
+office,office,office,tax_advisor,An office for a financial expert specially trained in tax law,node / area
+office,office,office,telecommunication,An office for a telecommunication company.,node / area
+office,office,office,transport,An office of a freight forwarder or transport company.,node / area
+office,office,office,travel_agent,An office of a travel agent.,node / area
+office,office,office,tutoring,An office of tutor or tutoring centre.,node / area
+office,office,office,union,"An office of a trade union, an association of workers forming a bargaining unit.",node / area
+office,office,office,university,"An office providing services to university students or staff, or the office of a department / faculty in a university.",node / area
+office,office,office,visa,An office of an organisation or business which offers visa assistance.,node / area
+office,office,office,water_utility,The office for a water utility company or water board.,node / area
+office,office,office,yes,Generic tag for unspecified office type.,node / area
+administratively declared places,administratively declared places,place,country,A nation state or other high-level national political/administrative area.,node
+administratively declared places,administratively declared places,place,state,A large sub-national political/administrative area.,node / area
+administratively declared places,administratively declared places,place,region,Used both as a broad tag for geographic or historical areas with no clear boundary and for distinct administration areas (with specific boundaries) in some countries.,node / area / relation
+administratively declared places,administratively declared places,place,province,A subdivision of a country similar to a state.,node
+administratively declared places,administratively declared places,place,district,"A district – a type of administrative division that, in some countries, is managed by local government.",node
+administratively declared places,administratively declared places,place,county,A county - a geographical region of a country.,node
+administratively declared places,administratively declared places,place,subdistrict,A subdistrict - a subdivision of a district used for administrative or other purposes.,node
+administratively declared places,administratively declared places,place,municipality,A municipality - single urban administrative division having corporate status.,node / relation
+"populated settlements, urban","populated settlements, urban",place,city,The largest urban settlement or settlements within the territory.,node / area / relation
+"populated settlements, urban","populated settlements, urban",place,borough,A part in a larger city grouped into administrative unit.,node / area / relation
+"populated settlements, urban","populated settlements, urban",place,suburb,A part of a town or city with a well-known name and often a distinct identity.,node / area / relation
+"populated settlements, urban","populated settlements, urban",place,quarter,"A quarter is a named, geographically localised place within a suburb of a larger city or within a town, which is bigger than a neighbourhood.",node / area / relation
+"populated settlements, urban","populated settlements, urban",place,neighbourhood,"A neighbourhood is a smaller named, geographically localised place within a suburb of a larger city or within a town or village",node / area / relation
+"populated settlements, urban","populated settlements, urban",place,city_block,"A named city block, usually surrounded by streets.",node / area
+"populated settlements, urban","populated settlements, urban",place,plot,A named plot is a tract or parcel of land owned or meant to be owned by some owner.,node / area / relation
+"populated settlements, urban and rural","populated settlements, urban and rural",place,city,The largest urban settlement or settlements within the territory.,node / area / relation
+"populated settlements, urban and rural","populated settlements, urban and rural",place,town,"An important urban centre, between a village and a city in size.",node / area / relation
+"populated settlements, urban and rural","populated settlements, urban and rural",place,village,"A smaller distinct settlement, smaller than a town with few facilities available with people traveling to nearby towns to access these.",node / area / relation
+"populated settlements, urban and rural","populated settlements, urban and rural",place,hamlet,"A smaller rural community, typically with fewer than 100-200 inhabitants, and little infrastructure.",node / area
+"populated settlements, urban and rural","populated settlements, urban and rural",place,isolated_dwelling,The smallest kind of settlement (1-2 households).,node / area / relation
+"populated settlements, urban and rural","populated settlements, urban and rural",place,farm,An individually named farm.,node / area
+"populated settlements, urban and rural","populated settlements, urban and rural",place,allotments,"A separate settlement, which is located outside an officially inhabited locality and has its own addressing",node / area
+other places,other places,place,continent,"One of the seven continents: Africa, Antarctica, Asia, Europe, North America, Oceania, South America.",node
+other places,other places,place,archipelago,A named group or chain of closely related islands and islets.,relation
+other places,other places,place,island,Any piece of land that is completely surrounded by water and isolated from other significant landmasses.,node / area
+other places,other places,place,islet,A very small island.,node / area
+other places,other places,place,square,"A town or village square: a (typically) paved open space, generally of architectural significance, which is surrounded by buildings in a built-up area such as a city, town or village.",node / area
+other places,other places,place,locality,A named place that has no population.,node / area / relation
+other places,other places,place,polder,A land area that forms an artificial hydrological entity enclosed by embankments and usually is under sea level.,node / area
+other places,other places,place,sea,"A large body of salt water part of, or connected to, an ocean.",node / area
+other places,other places,place,ocean,The world's five main major oceanic divisions.,node
+power,power,power,cable,"An insulated cable carrying electrical power, such as transmission or distribution cables located underground and undersea cables",way
+power,power,power,catenary_mast,A pole supporting the overhead wires used to supply electricity to vehicles equipped with a pantograph such as trams and trains.,node
+power,power,power,compensator,A static power device used to ensure power quality and electrical network resilience.,node / area
+power,power,power,connection,A free-standing electrical connection between two or more overhead wires.,node
+power,power,power,converter,"A device to convert power between alternating and direct current electrical power: often, but not only, over high voltage networks",node / area
+power,power,power,generator,"A device which converts one form of energy to another, for example, an electrical generator.",node / way / area
+power,power,power,heliostat,A mirror of a heliostat device,node
+power,power,power,insulator,An electrical insulator which connects a power line to a support structure and prevents grounding.,node / way
+power,power,power,inverter,A device to convert power from direct current to alternating current.,node / area
+power,power,power,line,"High-voltage power lines used for power transmission, usually supported by towers or pylons",way
+power,power,line,busbar,"Identifies a power line as a busbar, the central connection in a substation",way
+power,power,line,bay,A power line within a substation which connects a circuit to a busbar.,way
+power,power,power,minor_line,"Minor power lines forming the distribution grid, usually carried by poles.",way
+power,power,power,plant,"An industrial facility where power (electricity, useful heat, biogas) is produced by individual power generator units.",area / relation
+power,power,power,pole,"A single pole supporting power lines, often a wood, steel, or concrete mast designed to carry minor power lines.",node
+power,power,power,portal,"A supporting structure for power lines, composed of vertical legs with cables between them attached to a horizontal crossarm.",node / way
+power,power,power,substation,"A facility which controls the flow of electricity in a power network with transformers, switchgear or compensators.",node / area
+power,power,power,switch,A device which allows electrical network operators to power up & down lines and transformers in substations or along the power grid.,node
+power,power,power,switchgear,"A switchgear, which comprises one or more busbar assemblies and a number of bays each connecting a circuit to the busbar assembly.",area
+power,power,power,terminal,"A point of connection where an overhead power line ends on a building or wall; for example, when connecting it to an indoor substation.",node
+power,power,power,tower,A tower or pylon carrying high voltage electricity cables. Often constructed from steel latticework but tubular or solid pylons are also used.,node
+power,power,power,transformer,A device for stepping up or down electric voltage. Large power transformers are typically located inside substations,node
+public transport,public transport,public_transport,stop_position,The position on the street or rails where a public transport vehicle stops.,node
+public transport,public transport,public_transport,platform,The place where passengers are waiting for the public transport vehicles.,node / way / area
+public transport,public transport,public_transport,station,A station is an area designed to access public transport.,node / area
+public transport,public transport,public_transport,stop_area,"A relation that contains all elements of a train, subway, monorail, tram, bus, trolleybus, aerialway, or ferry stop.",relation
+public transport,public transport,public_transport,stop_area_group,,None
+railway,tracks,railway,abandoned,"The course of a former railway which has been abandoned and the track removed. The course is still recognized through embankments, cuttings, tree rows, bridges, tunnels, remaining track ties, building shapes and rolling or straight ways. For demolished rails that are no longer identifiable, e.g. that have been built over, some use the highly questionable railway=razed.",way
+railway,tracks,railway,construction,Railway under construction.,way
+railway,tracks,railway,proposed,Railway being proposed but haven't started construction. Please see the proposed page regarding verifiability on the ground of this value.,way
+railway,tracks,railway,disused,"A section of railway which is no longer used but where the track and infrastructure remains in place. The track is likely overgrown with endemic vegetation, but could be brought back into useful service with only minor effort.",way
+railway,tracks,railway,funicular,"Cable driven inclined railways on a steep slope, with a pair of cars connected by one cable",way
+railway,tracks,railway,light_rail,"A higher-standard tram system, normally in its own right-of-way. Often it connects towns and thus reaches a considerable length (tens of kilometres).",way
+railway,tracks,railway,miniature,"Miniature railways are narrower than narrow gauge and carry passengers, frequently at an exact scale of ""standard-sized"" rail (for example ""1/4 scale""). They can often be found in parks.",way
+railway,tracks,railway,monorail,A railway with only a single rail. A monorail can run above the rail like in Las Vegas and Disneyland or can suspend below the rail like the Wuppertal Schwebebahn (Germany).,way
+railway,tracks,railway,narrow_gauge,Narrow-gauge passenger or freight train tracks. Narrow gauge railways can have mainline railway service like the Rhaetian Railway in Switzerland or can be a small light industrial railway. Use gauge=* to specify the actual width of rails in mm.,way
+railway,tracks,railway,preserved,This is the old tag for historic trains. Use railway:preserved=yes for historical railway instead.,way
+railway,tracks,railway,rail,Full sized passenger or freight train tracks in the standard gauge for the country or state.,way
+railway,tracks,railway,subway,A city passenger rail service running mostly grade separated (see Wikipedia:rapid transit). Often a significant portion of the line or its system/network is underground.,way
+railway,tracks,railway,tram,"One or two carriage rail vehicle tracks, usually sharing motor road, sometimes called ""street running"" (Other languages).",way
+railway,additional track features or attributes,bridge,yes,"If the railway goes over a street, waterway or other railway on an elevated structure.",way
+railway,additional track features or attributes,cutting,yes,"A section where the railway is significantly lower than ground level, but not underground.",way
+railway,additional track features or attributes,electrified,"contact_line
+rail
+yes
+no","contact_line: a power line over the train head
+rail: a third rail near the track supplying the train with power
+yes: electrified track, but no details available
+no: track with no power supply.",way
+railway,additional track features or attributes,embankment,yes,A section where the railway is raised significantly higher than ground level.,way
+railway,additional track features or attributes,embedded_rails,yes / <type of railway>,Specifies that a highway on which non-railway traffic is also allowed has railway tracks embedded in it but the rails are mapped as separate ways.,way
+railway,additional track features or attributes,frequency,<number> [Hz],The frequency with which a line is electrified. Use 0 for DC. Also see the voltage tag.,way
+railway,additional track features or attributes,passenger_lines,<number>,Used to describe number of tracks of the railway line a certain track segment belongs to.,way
+railway,additional track features or attributes,railway:track_ref,<number>,Track number,way
+railway,additional track features or attributes,service,crossover,Relatively short lengths of track which switch traffic from one parallel line to another,way
+railway,additional track features or attributes,service,siding,"Relatively short lengths of track, running parallel to (and connected to) a main route",way
+railway,additional track features or attributes,service,spur,"Relatively short lengths of track, built to give one company or entity access to a main or branch line.",way
+railway,additional track features or attributes,service,yard,Tracks within railway company operated marshalling or maintenance yards.,way
+railway,additional track features or attributes,tunnel,yes,If the railway goes below ground. Most subways have this tag.,way
+railway,additional track features or attributes,tracks,<number>,"Number of parallel tracks in close proximity when mapped as one single way representing all tracks. If not given means unknown and defaults to 1. In many parts of the world the tracks are being drawn out separately so that there is more detail, in which case this tag isn't used.",way
+railway,additional track features or attributes,usage,"main
+branch
+industrial
+military
+tourism
+scientific
+test","main line: heavy traffic
+branch line: connecting places with a mainline
+industrial: servicing large plants (iron, chemical etc.), surface mining, …
+military: servicing military area
+tourism: most mountain rails (rack-rails, funicular) and preserved railways
+scientific: rail transport at spaceports, large array telescopes, etc.
+test: track for testing new wheels, rails, tracks and rail technologies.",way
+railway,additional track features or attributes,voltage,<number>,The voltage with which a line is electrified. Also see the frequency tag.,way
+railway,stations and stops,railway,halt,A small station without switches,node
+railway,stations and stops,public_transport,stop_position,The position on the railway track where the train (its centre) stops at a platform. This is useful for routing on long platforms where also short trains stop and on long platforms where multiple trains stop behind each other. See also public_transport=stop_area.,node
+railway,stations and stops,public_transport,platform,"This is parallel to the rail line for showing where the actual platforms are. It is also to know where you can change platform and enter the station, so use footpaths to connect them. This is really useful for routing too. Use only if the platform is served by public transport.",node / way / area
+railway,stations and stops,railway,platform,"This is parallel to the rail line for showing where the actual platforms are. It is also to know where you can change platform and enter the station, so use footpaths to connect them. This is really useful for routing too. Use in addition to public_transport=platform.",way / area
+railway,stations and stops,public_transport,station,Railway passenger-only station.,node / area
+railway,stations and stops,railway,station,Railway passenger and/or cargo station. Use in addition to public_transport=station.,node / area
+railway,stations and stops,railway,stop,Marks the position where trains stop at a station. It should be added as a node on a railway=rail way.,node
+railway,stations and stops,railway,subway_entrance,"The entrance to a subway station, usually going from surface to underground.",node
+railway,stations and stops,railway,tram_stop,A tram stop is a place where a passenger can embark / disembark a tram.,node
+railway,infrastructure,landuse,railway,Ground used around railways and railwaystations.,area
+railway,infrastructure,railway,buffer_stop,Stops the train at the end of a track. See buffer stop.,node
+railway,infrastructure,railway,crossing,A point where pedestrians may cross.,node
+railway,infrastructure,railway,derail,A device used to prevent fouling of a rail track by unauthorized movements of trains or unattended rolling stock. See Derail (railroad).,node
+railway,infrastructure,railway,level_crossing,A point where rails and roads cross.,node
+railway,infrastructure,railway,railway_crossing,Crossing rails with no interconnection.,node
+railway,infrastructure,railway,roundhouse,A semicircular building with many stalls for servicing engines.,area
+railway,infrastructure,railway,signal,Any kind of railway signal.,node
+railway,infrastructure,railway,switch,Full connections between railways (aka 'points').,node
+railway,infrastructure,railway,tram_level_crossing,A point where trams and roads cross.,node
+railway,infrastructure,railway,traverser,These are used for changing trains between railways. Also known as transfer table.,node / area
+railway,infrastructure,railway,turntable,These are used for changing the direction that part of a train is pointing in.,node / area
+railway,infrastructure,railway,ventilation_shaft,A structure that allows ventilation in underground tunnels,node / way
+railway,infrastructure,railway,wash,A railroad carriage/car wash,node / area
+railway,infrastructure,railway,water_crane,A structure to deliver water to steam locomotives,node
+railway,infrastructure,railway,user defined,All commonly used values according to Taginfo,node / way
+route,route,route,bicycle,"Cycle routes or bicycles route are named, numbered or otherwise signed. May go along roads, trails or dedicated cycle paths",relation
+route,route,route,bus,The route a public bus service takes. See Buses.,relation
+route,route,route,canoe,Signed route for canoeing through a waterway.,relation
+route,route,route,detour,Route for fixed detour routes. Examples are Bedarfsumleitung in Germany and uitwijkroute in the Netherlands,relation
+route,route,route,ferry,"The route a ferry takes from terminal to terminal Please make sure to add at least one node per tile (zoom level 12), better at least one every few km, so offline editors catch it with bbox requests.",way / relation
+route,route,route,foot,"Walking Route - is used for routes which are walkable without any limitations regarding fitness, equipment or weather conditions.",relation
+route,route,route,hiking,Hiking explains how to tag hiking routes.,relation
+route,route,route,horse,Riding routes,relation
+route,route,route,inline_skates,Inline has more information on the subject.,relation
+route,route,route,light_rail,Route of a light rail line.,relation
+route,route,route,mtb,Mountain biking explains how to tag mtb routes.,relation
+route,route,route,piste,"Route of a piste (e.g., snowshoe or XC-Ski trails) in a winter sport area.",way / relation
+route,route,route,railway,"A sequence of railway ways, often named (e.g., Channel Tunnel). See Railways.",relation
+route,route,route,road,Can be used to map various road routes/long roads.,relation
+route,route,route,running,For running (jogging) routes.,relation
+route,route,route,ski,"For ski tracks (e.g., XC-Ski Trails User:Langläufer/Loipemap).",relation
+route,route,route,subway,Route of a metro service,relation
+route,route,route,train,"Train services (e.g., London-Paris Eurostar) See Railways.",relation
+route,route,route,tracks,Railroad track as rail infrastructure.,relation
+route,route,route,tram,See Trams for more information on tagging tram services.,relation
+route,route,route,trolleybus,The route of a trolleybus service.,relation
+route,route,route,User defined,All commonly used values according to Taginfo.,relation
+shop,"food, beverages",shop,alcohol,Shop selling alcohol to take away,None
+shop,"food, beverages",shop,bakery,Shop focused on selling bread,None
+shop,"food, beverages",shop,beverages,Shop focused on selling alcoholic and non-alcoholic beverages. See also shop=alcohol.,None
+shop,"food, beverages",shop,brewing_supplies,"Shop focused on selling supplies for home brewing of beer, wine and spirits (where permitted).",None
+shop,"food, beverages",shop,butcher,Shop focused on selling meat,None
+shop,"food, beverages",shop,cheese,Shop focused on selling cheese.,None
+shop,"food, beverages",shop,chocolate,Shop focused on selling chocolate.,None
+shop,"food, beverages",shop,coffee,Shop focused on selling coffee.,None
+shop,"food, beverages",shop,confectionery,Shop focused on selling sweets or candy,None
+shop,"food, beverages",shop,convenience,A small local shop carrying a small subset of the items you would find in a supermarket,None
+shop,"food, beverages",shop,dairy,Shop focused on selling dairy products.,None
+shop,"food, beverages",shop,deli,"Shop focused on selling delicatessen (fine foods, gourmet foods), possibly also fine wine. Not to be confused with the US delis.",None
+shop,"food, beverages",shop,farm,Shop or roadside stand focused on selling freshly harvested farm produce,None
+shop,"food, beverages",shop,food,"Shop focused on selling food, more specific value should be used if possible.
+shop=food + food=prepared_meals was also proposed/used for type of shop selling prepared meals, not ready for eating immediately (and requiring for example heating/boiling or other simple preparation).",None
+shop,"food, beverages",shop,frozen_food,Shop focused on selling frozen food.,None
+shop,"food, beverages",shop,greengrocer,Shop focused on selling vegetables and fruits.,None
+shop,"food, beverages",shop,health_food,"A health food shop; selling wholefoods, vitamins, nutrition supplements and meat and dairy alternatives.",None
+shop,"food, beverages",shop,ice_cream,Shop selling ice cream. See also amenity=ice_cream.,None
+shop,"food, beverages",shop,nuts,"Shop selling dried nuts/fruits, edible seeds, etc. Not to be confused with shop=spices.",None
+shop,"food, beverages",shop,pasta,"Shop focused on selling (fresh) pasta, ravioli, etc.",None
+shop,"food, beverages",shop,pastry,"Shop focused on selling baked sweets like cakes, biscuits, strudel and pies.",None
+shop,"food, beverages",shop,seafood,Shop focused on selling fish/seafood.,None
+shop,"food, beverages",shop,spices,Shop focused on selling spices.,None
+shop,"food, beverages",shop,tea,Shop focused on selling tea.,None
+shop,"food, beverages",shop,tortilla,Shop focused on selling tortillas.,None
+shop,"food, beverages",shop,water,Shop focused on selling drinking water.,None
+shop,"food, beverages",shop,wine,Shop selling wine.,None
+shop,"general store, department store, mall",shop,department_store,A single large store – often multiple storeys high – selling a large variety of goods (see also shop=mall),None
+shop,"general store, department store, mall",shop,general,A store that carries a general line of merchandise. (see also shop=convenience if it sells food).,None
+shop,"general store, department store, mall",shop,kiosk,"A small shop on the pavement that sells magazines, tobacco, newspapers, sweets and stamps.",None
+shop,"general store, department store, mall",shop,mall,A shopping mall – multiple stores under one roof (also known as a shopping centre),None
+shop,"general store, department store, mall",shop,supermarket,Supermarket – a large store with groceries and other items,None
+shop,"general store, department store, mall",shop,wholesale,Wholesale/warehouse club or cash and carry – a store that sells items in bulk to retailers. The branch of industry can be defined with wholesale=*.,None
+shop,"clothing, shoes, accessories",shop,baby_goods,"Shop focused on selling objects for babies (clothes, prams, cots, toys).",None
+shop,"clothing, shoes, accessories",shop,bag,Shop focused on selling bags.,None
+shop,"clothing, shoes, accessories",shop,boutique,"A small shopping outlet, especially one that specializes in elite and fashionable items",None
+shop,"clothing, shoes, accessories",shop,clothes,Shop focused on selling clothes and/or underwear (other related value in use is fashion),None
+shop,"clothing, shoes, accessories",shop,fabric,"Shop focused on selling fabric and other materials for the purpose of making clothes and other products, eg dress making.",None
+shop,"clothing, shoes, accessories",shop,fashion,"Shop focused on selling fashion. This is deprecated, please use shop=clothes.",None
+shop,"clothing, shoes, accessories",shop,fashion_accessories,Shop focused on selling fashion accessories.,None
+shop,"clothing, shoes, accessories",shop,jewelry,Jewellers shops.,None
+shop,"clothing, shoes, accessories",shop,leather,Shop focused on selling products made out of leather.,None
+shop,"clothing, shoes, accessories",shop,sewing,"A shop that sells sewing supplies (fabric, thread, yarn, knitting needles, sewing machines, etc.)",None
+shop,"clothing, shoes, accessories",shop,shoes,Shop focused on selling shoes.,None
+shop,"clothing, shoes, accessories",shop,shoe_repair,Shop focused on repairing shoes.,None
+shop,"clothing, shoes, accessories",shop,tailor,"A place where clothing is made, repaired, or altered professionally, especially suits and men's clothing",None
+shop,"clothing, shoes, accessories",shop,watches,Shop focused on selling watches.,None
+shop,"clothing, shoes, accessories",shop,wool,Shop selling wool for making of clothes or other products.,None
+shop,"discount store, charity",shop,charity,"A charity shop is a shop operated by a charity, for the purposes of fundraising.",None
+shop,"discount store, charity",shop,second_hand,A shop buying and selling used clothes and other things. See also shop=pawnbroker,None
+shop,"discount store, charity",shop,variety_store,"A variety store retailer is a retail store that sells inexpensive items, sometimes with a single price point for all items in the store.",None
+shop,health and beauty,shop,beauty,"A non-hairdresser beauty shop, spa, nail salon, etc.. See also shop=hairdresser.",None
+shop,health and beauty,shop,chemist,"Shop focused on selling articles of personal hygiene, cosmetics, and household cleaning products (for a shop that potentially dispenses prescription drugs, cf. pharmacy. U.S. drug store, see amenity=pharmacy)",None
+shop,health and beauty,shop,cosmetics,Shop focused on selling cosmetics,None
+shop,health and beauty,shop,erotic,"Shop focused on selling erotic toys, -clothes or other erotic stuff.",None
+shop,health and beauty,shop,hairdresser,"Here you can get your hair cut, coloured, … See also shop=beauty",None
+shop,health and beauty,shop,hairdresser_supply,"A shop, where you can buy hairdressing supplies.",None
+shop,health and beauty,shop,hearing_aids,Shop focused on selling hearing aids devices,None
+shop,health and beauty,shop,herbalist,"Shop focused on selling herbs, often for medical purposes. (See also: healthcare:speciality=herbalism and healthcare=alternative).",None
+shop,health and beauty,shop,massage,A massage shop,None
+shop,health and beauty,shop,medical_supply,Shop focused on selling medical supplies.,None
+shop,health and beauty,shop,nutrition_supplements,"Shops that sells one or more nutritional supplements (of vitamins, minerals and/or herbs)",None
+shop,health and beauty,shop,optician,"Shop focused on selling eyeglasses, contact lenses (may also check your eyes).",None
+shop,health and beauty,shop,perfumery,Shop focused on selling perfumery,None
+shop,health and beauty,shop,tattoo,A tattoo parlour.,None
+shop,"do-it-yourself, household, building materials, gardening",shop,agrarian,"Shop focused on selling agrarian products, like seeds, agricultural machinery, animal feed, etc.",None
+shop,"do-it-yourself, household, building materials, gardening",shop,appliance,"Shop focused on selling large electrical items (aka white goods) washing machines, fridges, cookers, ovens, fans, etc.",None
+shop,"do-it-yourself, household, building materials, gardening",shop,bathroom_furnishing,Shop focused on selling bathroom furniture and accessories,None
+shop,"do-it-yourself, household, building materials, gardening",shop,country_store,Shop focused on selling rural supplies – a range of goods specifically aimed at country dwellers,None
+shop,"do-it-yourself, household, building materials, gardening",shop,doityourself,"Shop focused on selling tools and supplies to do-it-yourself householders, gardening, …",None
+shop,"do-it-yourself, household, building materials, gardening",shop,electrical,Shop focused on selling electrical supplies and devices,None
+shop,"do-it-yourself, household, building materials, gardening",shop,energy,Shop focused on selling energy,None
+shop,"do-it-yourself, household, building materials, gardening",shop,fireplace,"Shop focused on selling electric fireplaces, stoves or masonry heaters and required fuels",None
+shop,"do-it-yourself, household, building materials, gardening",shop,florist,Shop focused on selling bouquets of flowers (see shop=garden_centre for potted flowers).,None
+shop,"do-it-yourself, household, building materials, gardening",shop,garden_centre,"Shop focused on selling potted flowers, maybe even trees (see also shop=florist for flower bouquets).",None
+shop,"do-it-yourself, household, building materials, gardening",shop,garden_furniture,"Shop focused on selling garden furniture (sheds, outdoor tables, gates, fences, ...). See shop=garden_centre if also plants are sold.",None
+shop,"do-it-yourself, household, building materials, gardening",shop,gas,"Shop focused on selling technical gas, such as argon, oxygen, acetylene, nitrogen, carbon dioxide, etc. in pressurized containers",None
+shop,"do-it-yourself, household, building materials, gardening",shop,glaziery,Shop focused on selling and installing glazing for windows and doors.,None
+shop,"do-it-yourself, household, building materials, gardening",shop,groundskeeping,"Shop focused on selling outdoor groundskeeping equipment (lawnmowers, chainsaws, small tractors, ...",None
+shop,"do-it-yourself, household, building materials, gardening",shop,hardware,"Shop focused on selling building supplies including screws, bolts & paints, … See also shop=doityourself",None
+shop,"do-it-yourself, household, building materials, gardening",shop,houseware,"Shop focused on selling crockery, cutlery, kitchenware, small household appliances.",None
+shop,"do-it-yourself, household, building materials, gardening",shop,locksmith,"Shop focused on selling keys, see also craft=locksmith and craft=key_cutter",None
+shop,"do-it-yourself, household, building materials, gardening",shop,paint,Shop focused on selling paints.,None
+shop,"do-it-yourself, household, building materials, gardening",shop,pottery,"Shop focused on selling earthenware, stoneware and porcelain and other ceramic ware.",None
+shop,"do-it-yourself, household, building materials, gardening",shop,security,"Shop focused on selling security items like burglar alarms, vaults, locking systems, video surveillance cameras, firefighting equipment, alarm systems, warning systems, etc.",None
+shop,"do-it-yourself, household, building materials, gardening",shop,tool_hire,Shop hiring out tools,None
+shop,"do-it-yourself, household, building materials, gardening",shop,trade,"A place of business that sells to a particular trade or trades, but normally also retails to normal consumers. See also shop=doityourself",None
+shop,furniture and interior,shop,antiques,Shop focused on selling antiques.,None
+shop,furniture and interior,shop,bed,"Shop focused on selling beds, mattresses and other bedding products.",None
+shop,furniture and interior,shop,candles,"Shop focused on selling candles and candle accessories (holders, etc)",None
+shop,furniture and interior,shop,carpet,Shop focused on selling carpets,None
+shop,furniture and interior,shop,curtain,Shop focused on selling curtains or drapes (see also shop=fabric),None
+shop,furniture and interior,shop,doors,Shop focused on selling doors,None
+shop,furniture and interior,shop,flooring,Shop focused on selling floorings,None
+shop,furniture and interior,shop,furniture,"Shop focused on selling furniture, might range from small decorational items to a whole flat interior",None
+shop,furniture and interior,shop,household_linen,Shop focused on selling household linen.,None
+shop,furniture and interior,shop,interior_decoration,Shop focused on selling interior decorations.,None
+shop,furniture and interior,shop,kitchen,"A shop where you can plan and buy your kitchen. (Sometimes called ""kitchen studio"" and the like, but plain kitchen is the most frequently used tag so far.)",None
+shop,furniture and interior,shop,lighting,A shop selling lighting fixtures and lamps.,None
+shop,furniture and interior,shop,tiles,Shop focused on selling tiles.,None
+shop,furniture and interior,shop,window_blind,Shop focused on selling window blinds.,None
+shop,electronics,shop,computer,"Shop focused on selling computers, peripherals, software, …",None
+shop,electronics,shop,electronics,"Shop focused on selling consumer electronics (TV, radio, …). Larger ones may also sell computers, fridges, …",None
+shop,electronics,shop,hifi,Shop focused on selling High Fidelity or High End environment to listen music or watch films at home,None
+shop,electronics,shop,mobile_phone,Shop focused on selling mobile phones and accessories,None
+shop,electronics,shop,printer_ink,A shop that sells or refills printer ink cartridges.,None
+shop,electronics,shop,radiotechnics,"Shop focused on selling electronic components, electrical products, radio measuring devices, supplies for radio and electronics.",None
+shop,electronics,shop,telecommunication,"Shop selling internet, television or similar services, and related hardware.",None
+shop,electronics,shop,vacuum_cleaner,Shop focused on selling vacuum cleaners and associated products.,None
+shop,"outdoors and sport, vehicles",shop,atv,"Shop focused on selling atvs (quads), atv equipment and may rent or repair them",None
+shop,"outdoors and sport, vehicles",shop,bicycle,"Shop focused on selling bicycles, bicycle equipment and may rent or repair them",None
+shop,"outdoors and sport, vehicles",shop,boat,"Shop focused on selling boats, boat equipment and may rent or repair them",None
+shop,"outdoors and sport, vehicles",shop,car,Car store – a place primarily to buy cars or to additionally get your car repaired,None
+shop,"outdoors and sport, vehicles",shop,car_parts,"Shop focused on selling auto parts, auto accessories, motor oil, car chemicals, etc.",None
+shop,"outdoors and sport, vehicles",shop,car_repair,Shop focused on repairing cars.,None
+shop,"outdoors and sport, vehicles",shop,[[ Too many Data Items entities accessed. | caravan ]],"A shop for caravans, motorhomes & similar recreational vehicles.",None
+shop,"outdoors and sport, vehicles",shop,fishing,Shop focused on selling fishing equipment.,None
+shop,"outdoors and sport, vehicles",shop,fuel,"Shop selling fuels (motor fuel, wood, coal, gas) that can't be considered a amenity=fuel (fuel station). Use fuel:*=yes/no to indicate which fuels are available.",None
+shop,"outdoors and sport, vehicles",shop,golf,Shop focused on selling golf equipment.,None
+shop,"outdoors and sport, vehicles",shop,hunting,Shop focused on selling gun and hunting equipment.,None
+shop,"outdoors and sport, vehicles",shop,military_surplus,Shop selling used military equipment,None
+shop,"outdoors and sport, vehicles",shop,motorcycle,"Shop focused on selling motorcycles and/or related accessories, clothes, parts, and rental services.",None
+shop,"outdoors and sport, vehicles",shop,motorcycle_repair,Shop focused on motorcycle repair.,None
+shop,"outdoors and sport, vehicles",shop,outdoor,"Shop focused on selling camping, walking, climbing, and other outdoor sports equipment (GPSes, etc.)",None
+shop,"outdoors and sport, vehicles",shop,scooter,"Shop focused on selling scooters (small 2 wheeled, low platformed motorcycles).",None
+shop,"outdoors and sport, vehicles",shop,scuba_diving,Shop focused on selling scuba diving equipment.,None
+shop,"outdoors and sport, vehicles",shop,ski,"Shop focused on selling skis, ski equipment and may rent or repair them",None
+shop,"outdoors and sport, vehicles",shop,snowmobile,"Shop focused on selling snowmobiles, snowmobile equipment and may rent or repair them",None
+shop,"outdoors and sport, vehicles",shop,sports,Shop focused on selling sporting goods.,None
+shop,"outdoors and sport, vehicles",shop,surf,"Shop selling surfboards, sailboards, wakeboards, and other types of surf style boards. and/or related accessories, clothes, parts, repair and rental services.",None
+shop,"outdoors and sport, vehicles",shop,swimming_pool,A store that sells swimming pool equipment and supplies.,None
+shop,"outdoors and sport, vehicles",shop,trailer,Shop focused on selling trailers and parts and/or repairing / renting them,None
+shop,"outdoors and sport, vehicles",shop,truck,Shop focused on selling trucks and other commercial vehicles,None
+shop,"outdoors and sport, vehicles",shop,tyres,Shop focused on selling tyres.,None
+shop,"art, music, hobbies",shop,art,"Shop which sells works of art. May be paintings, sculpture, or other types of art",None
+shop,"art, music, hobbies",shop,camera,A shop mainly selling cameras and lenses,None
+shop,"art, music, hobbies",shop,collector,"A shop for different collector's items like stamps, coins, action figures, etc.",None
+shop,"art, music, hobbies",shop,craft,"An arts and crafts supply store. Commonly sold items are paper, canvas, paint, pencils, crafting wood, crafting tools, etc. – look at craft=*",None
+shop,"art, music, hobbies",shop,frame,Shop focused on selling frames.,None
+shop,"art, music, hobbies",shop,games,"Shop focused on selling board games, card games and/or role-playing games.",None
+shop,"art, music, hobbies",shop,model,Shop specialising in the sale of scale models.,None
+shop,"art, music, hobbies",shop,music,Shop focused on selling recorded music (vinyl/CDs/...),None
+shop,"art, music, hobbies",shop,musical_instrument,"Shop focused on selling musical instruments, lyrics, scores. If focused on a specific instrument, specify with musical_instrument=*",None
+shop,"art, music, hobbies",shop,photo,Shop focused on selling products or services related with photography.,None
+shop,"art, music, hobbies",shop,trophy,"Store selling trophies, awards, plaques etc.",None
+shop,"art, music, hobbies",shop,video,Shop focused on selling or renting out videos/DVDs.,None
+shop,"art, music, hobbies",shop,video_games,Shop focused on selling video games.,None
+shop,"stationery, gifts, books, newspapers",shop,anime,Shop focused on selling anime stuff.,None
+shop,"stationery, gifts, books, newspapers",shop,books,"Shop focused on selling books (for a library that lends books, see amenity=library)",None
+shop,"stationery, gifts, books, newspapers",shop,gift,"Shop focused on selling gifts, greeting cards, or tourist gifts (souvenirs)",None
+shop,"stationery, gifts, books, newspapers",shop,lottery,A shop of which the main or only purpose is the sale of lottery tickets.,None
+shop,"stationery, gifts, books, newspapers",shop,newsagent,"Shop focused on selling newspapers, cigarettes, other goods",None
+shop,"stationery, gifts, books, newspapers",shop,stationery,Shop focused on selling office supplies,None
+shop,"stationery, gifts, books, newspapers",shop,ticket,"Shop focused on selling tickets for concerts, events, public transport, …",None
+shop,others,shop,bookmaker,A shop that takes bets on sporting and other events at agreed upon odds.,None
+shop,others,shop,cannabis,a shop primarily and legally selling non-medical cannabis products,None
+shop,others,shop,copyshop,Shop focused on selling photocopying and printing services.,None
+shop,others,shop,dry_cleaning,Shop or kiosk offering a clothes dry cleaning service. The actual cleaning may be done elsewhere.,None
+shop,others,shop,e-cigarette,Shop focused on selling electronic cigarettes.,None
+shop,others,shop,funeral_directors,"Providing services related to funeral arrangements, may also be known as a ""funeral parlour"" or ""undertakers"".",None
+shop,others,shop,laundry,"A shop to get your normal clothes washed. Might be self service coin operated, with service staff for drop off, …",None
+shop,others,shop,money_lender,A money lender offers small personal loans at high rates of interest.,None
+shop,others,shop,outpost,Shop primarily used to pick-up items ordered online.,None
+shop,others,shop,party,"A shop for party and festival supplies, like costumes, etc.",None
+shop,others,shop,pawnbroker,A pawnbroker (or pawnshop) is an individual or business that offers secured loans to people. See also shop=second_hand,None
+shop,others,shop,pest_control,"Shop selling pest control goods to exterminate rats, insects etc.",None
+shop,others,shop,pet,"A shop for pets, animals and toys or food for them.",None
+shop,others,shop,pet_grooming,A shop offering grooming services for pets (most frequently dogs),None
+shop,others,shop,pyrotechnics,"Store of pyrotechnics: fireworks, firecrackers, sparklers etc.",None
+shop,others,shop,religion,"Shop focused on selling religious articles, church shop. See also religion=*",None
+shop,others,shop,rental,Shop that rents different kinds of vehicles or (sport) equipment,None
+shop,others,shop,storage_rental,self storage,None
+shop,others,shop,tobacco,"Shop focused on selling tobacco, cigarettes and their related accessories.",None
+shop,others,shop,toys,Shop focused on selling toys.,None
+shop,others,shop,travel_agency,Shop focused on selling tickets for travelling. Also known as a tour operator.,None
+shop,others,shop,vacant,"An unused vacant shop. Can be used for an empty or abandoned retail space that seems to be available for lease or purchase where a retail store (or similar businesses) may be opened. No store is being operated in a vacant shop, and neither goods nor services are being offered. This tag can be used after a store was closed or for a newly built shop before any busisness was operated in the shop.",None
+shop,others,shop,weapons,"Shop focused on selling weapons like knives, guns etc.",None
+shop,others,shop,yes,"A shop of unspecified type – it is always better to use another value that gives info about shop type, if possible. Used also as indicator that feature such as fuel station has a shop.",None
+shop,others,shop,user defined,"Category:Tag descriptions for key ""shop"" listing also values not presented here, only widely used shop tags are added to this page. All commonly used values according to Taginfo",None
+telecom,telecom,telecom,exchange,A place to connect landlines subscribers to telecommunication service equipments,node / area
+telecom,telecom,telecom,connection_point,Last point of telecom local loops allowing direct connections towards a few households and subscribers,node / area
+telecom,telecom,telecom,distribution_point,"Equipment, often small boxes, allowing to directly connect up to 15 individuals or households to a single upstream local loop cable towards telecom exchanges",node
+telecom,telecom,telecom,service_device,"Active equipment which deliver service to connected customers. It can be for instance a DSLAM, a telephone switch, or more recently an OLT for optical networks. It excludes amplifiers or repeaters installed along local loops or long distance lines.",node / area
+telecom,telecom,telecom,data_center,A building used to house computers and network equipment.,node / area
+telecom,telecom,telecom,line,A telecommunication line.,way
+tourism,tourism,tourism,alpine_hut,A remote building located in the mountains intended to provide board and lodging.,node / area
+tourism,tourism,tourism,apartment,A furnished apartment or flat with cooking and bathroom facilities that can be rented for holiday vacations.,node / area
+tourism,tourism,tourism,aquarium,A facility with living aquatic animals for public viewing.,node / area
+tourism,tourism,tourism,artwork,A public piece of art.,node / way / area
+tourism,tourism,tourism,attraction,"An object of interest for a tourist, or a purpose-built tourist attraction",node / way / area
+tourism,tourism,tourism,camp_pitch,A tent or caravan pitch location within a campsite or caravan site.,node / area
+tourism,tourism,tourism,camp_site,"An area where people can camp overnight using tents, camper vans, or caravans.",node / area
+tourism,tourism,tourism,caravan_site,A place where you can stay in a caravan overnight or for longer periods.,node / area
+tourism,tourism,tourism,chalet,A holiday cottage with self-contained cooking and bathroom facilities.,node / area
+tourism,tourism,tourism,gallery,An area or building that displays a variety of visual art exhibitions.,node / area
+tourism,tourism,tourism,guest_house,"Accommodation smaller than a hotel and typically owner-operated, such as bed&breakfasts etc.",node / area
+tourism,tourism,tourism,hostel,Cheap accommodation with shared bedrooms.,node / area
+tourism,tourism,tourism,hotel,Hotel – an establishment that provides paid lodging.,node / area
+tourism,tourism,tourism,information,"Information for tourists and visitors, including information offices",node / area
+tourism,tourism,tourism,motel,"Short term accommodation, particularly for people travelling by car.",node / area
+tourism,tourism,tourism,museum,"A museum: an institution with exhibitions on scientific, historical, cultural topics",node / area
+tourism,tourism,tourism,picnic_site,"A locality that is suitable for outdoors eating, with facilities to aid a picnic such as tables and benches.",node / area
+tourism,tourism,tourism,theme_park,"An amusement park where entertainment is provided by rides, games, concessions.",node / area
+tourism,tourism,tourism,viewpoint,"A place worth visiting, often high, with a good view of surrounding countryside or notable buildings.",node / area
+tourism,tourism,tourism,wilderness_hut,"A remote building, typically unserviced, providing temporary shelter and sleeping accommodation.",node / area
+tourism,tourism,tourism,zoo,"A zoological garden, where animals are confined for viewing by the public.",node / area
+tourism,tourism,tourism,yes,A general tourist attraction.,node / area
+water,water,water,river,The water covered area of a river.,area
+water,water,water,oxbow,An oxbow lake,area
+water,water,water,canal,The area covered by the water of a canal,area
+water,water,water,ditch,The water covered area of a waterway=ditch - a simple artificial waterway serving as a barrier or for draining surrounding land.,area
+water,water,water,lock,Water area of the lock chamber.,area
+water,water,water,fish_pass,Area of a fish pass for the fish to pass waterway dams or weirs. Should contain tag:waterway=fish_pass way inside.,area
+water,water,water,lake,A natural or semi-natural body of relatively still fresh or salt water which is surrounded by land.,node / area
+water,water,water,reservoir,An artificial lake which may be used to store water. Usually formed by a dam over a natural water course.,area
+water,water,water,pond,"A small body of standing water, man-made in most cases",node / area
+water,water,water,basin,An area of land artificially graded to hold water.,node / area
+water,water,water,lagoon,A body of shallow sea water or brackish water separated from the sea by a barrier.,area
+water,water,water,stream_pool,"A stream pool: a small but relatively deep collection of fresh water, occurring along a narrow stream.",area
+water,water,water,reflecting_pool,"A shallow pool of water, undisturbed by fountain jets, for a calm reflective surface, often found in gardens, squares or at memorial sites",area
+water,water,water,moat,"A deep, wide defensive ditch, normally filled with water, dug to surround a fortified habitation.",area
+water,water,water,wastewater,A clarifier or settling basin of a wastewater treatment plant.,area
+natural watercourses,natural watercourses,waterway,river,"The linear flow of a river, in flow direction.",way / relation
+natural watercourses,natural watercourses,waterway,riverbank,"Using this tag is discouraged, use tag:natural=water + tag:water=river instead.",None
+natural watercourses,natural watercourses,waterway,stream,A naturally-forming waterway that is too narrow to be classed as a river.,way / relation
+natural watercourses,natural watercourses,waterway,tidal_channel,"A natural intertidal waterway in mangroves, salt marshes, and tidal flats with water flow in the direction of the tide.",way
+man-made waterways,man-made waterways,waterway,canal,"An artificial open flow waterway used to carry useful water for transportation, waterpower, or irrigation.",way / relation
+man-made waterways,man-made waterways,waterway,drain,"An artificial free flow waterway used for carrying superfluous water, usually lined with concrete.",way / relation
+man-made waterways,man-made waterways,waterway,ditch,"A small artificial drainage waterway, usually unlined.",way / relation
+man-made waterways,man-made waterways,waterway,pressurised,An artificial waterway where water flows in a closed space without air,way
+man-made waterways,man-made waterways,waterway,fairway,"A navigable route in a lake or sea, often marked by buoys or beacons.",way
+facilities,facilities,waterway,dock,"An enclosed area for ships or boats within which the height of the water can be managed, or a dry dock.",node / area
+facilities,facilities,waterway,boatyard,"A place for constructing, repairing and storing vessels out of the water.",node / area
+barriers on waterways,barriers on waterways,waterway,dam,A barrier built across a river or stream to block and regulate the flow of the river.,node / way / area
+barriers on waterways,barriers on waterways,waterway,weir,A barrier built across a river to control water speed and depth. Designed to let water flow over the top all the time or at least in specific conditions.,node / way / area
+barriers on waterways,barriers on waterways,waterway,waterfall,A place where water flows over a vertical drop or a series of drops in the course of a stream or river.,node
+barriers on waterways,barriers on waterways,waterway,lock_gate,A gate of a lock,node / way
+other features on waterways,other features on waterways,waterway,soakhole,The point at which a river or stream percolates into or through the soil,node
+other features on waterways,other features on waterways,waterway,turning_point,"A place to turn the driving direction for vessels, where the boats are longer than the river/canal is wide.",node
+other features on waterways,other features on waterways,waterway,water_point,A place to fill fresh water holding tanks of a boat.,node
+other features on waterways,other features on waterways,waterway,fuel,A place to get fuel for boats,node / area

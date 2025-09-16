@@ -1,0 +1,45 @@
+Liste des fichiers créés pour ne pas s'emmeler les pinceaux:
+
+0. ORIGINAL DATABASE: ------------------------------------------------------------------------------
+
+- categories_OSM: contient les informations webscrappées après mise en commun des deux colonnes subcategorie_in_table et subcategorie_before_table. Contient une colonne Value, Main_categorie, Sub_categorie, Description and Element.
+
+
+
+1. CLEAN DATABASE: ---------------------------------------------------------------------------------
+
+- categories_FS_clean
+- categories_OSM_clan
+- lorenzo_clean
+
+Contiennent les différentes informations des datasets originaux, pour FS et OSM, une colonne Tag, une colonne Depth_tag qui compte le nombre de sous niveaux de catégories pour arriver au tag, Depth_1, jusqu'à Depth_n, avec n le niveau le plus profond de catégorisation du site. Pour OSM on a aussi la description du tag. Pour lorenzo, on a la même chose précédé du _OSM ou _FS selon en fonction des informations, mais les noms de colonnes restent les mêmes. Attention, dans ces datasets, la description est entière, avec les top worlds et les majuscules. 
+
+
+
+2. LINKED DATASETS: --------------------------------------------------------------------------------
+
+- matchs_with_lorenzo: contient une colonne OSM_tag, OSM_description, OSM_path, FS_tag et FS_path regroupant les matchs trouvés par lorenzo
+
+- matches_with_all-MiniLM-L6-v2
+- matches_with_all-mpnet-base-v2
+- matches_with_paraphrase-MiniLM-L6-v2
+- matches_with_paraphrase-mpnet-base-v2
+
+Les datasets ci dessus contiennent les mêmes colonnes que le dataset des matchs de lorenzo avec en plus un score de similarité cosinus qui indique à quel point les informations d'un tag OSM sont sémantiquement proches de celles du tag FS associé - avec le modèle concerné
+
+
+
+3. LINKED DATASETS AUGMENTED: ----------------------------------------------------------------------
+
+- matchs_with_paraphrase-mpnet-base-v2_adding_PM
+- matchs_with_paraphrase-MINILM-L6-v2_adding_PM
+
+Dataset matchs_with_paraphrase-mpnet-base-v2 auquel on ajoute +1 dans la colonne similarity score si le tag OSM est exactement le même que le tag FS; on ajoute dans ce cas le terme "PM" dans la colonne similarity bin (qui contient sinon l'intrevalle dans lequel se trouve le score de similarité).
+
+- matchs_with_paraphrase-mpnet-base-v2_adding_PM_LRZ: même chose mais on ajoute aussi +1 si le match est dans la base de données de lorenzo
+
+4. MERGED DATASETS: ---------------------------------------------------------------------------------
+
+Contient une colonne tag_OSM et Path_OSM puis les tags FS obtenues avec embeddings selon le modèle donnée dans l'intitulé du fichier avec également les tags trouvés par lorenzo:
+
+- merged_paraphrase-mpnet-base-v2_with_lorenzo
