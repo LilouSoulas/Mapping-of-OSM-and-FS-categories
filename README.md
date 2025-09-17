@@ -4,7 +4,7 @@ This repository contains the code used for the results obtained in the associate
 
 **Python notebooks:**  
 
-**01-download_OSM_map_features_tables.ipynb:** contains the code of NAME used to retrieve OpenStreetMap categories from the website https://wiki.openstreetmap.org/wiki/Map_features. The obtained database is stored in *"Database/FourSquare/categories"* under the name *"categories.zstd.parquet"*.  
+**01-download_OSM_map_features_tables.ipynb:** contains the code of Lorenzo LUCCHINI used to retrieve OpenStreetMap categories from the website https://wiki.openstreetmap.org/wiki/Map_features. The obtained database is stored in *"Database/FourSquare/categories"* under the name *"categories.zstd.parquet"*.  
 
 **02-categories_OSM_FS_datasets_cleaning.ipynb:** contains the code for cleaning the FourSquare and OpenStreetMap category databases. This file generates the cleaned datasets on which the rest of the code relies, and which are presented in Figures 1 and 2 of the article. The cleaned OSM and FS category databases are stored in *"Database/Clean_categories"* under the names *"categories_OSM_clean.csv"* and *"categories_FS_clean.csv"*.  
 
